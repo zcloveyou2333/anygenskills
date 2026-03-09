@@ -1,88 +1,198 @@
 ﻿名称,分类,状态,说明,作者,源地址,验证人,场景,附件,结果
 xlsx,转换工具,已验证,"创建和编辑电子表格文件（.xlsx/.xlsm/.csv/.tsv），包括数据清洗、公式、格式设置、图表和格式转换。
 ",anthropic,https://github.com/anthropics/skills/blob/main/skills/xlsx,福贵,使用/xlsx 技能，对一份包含5000条销售记录的表格进行数据清洗、添加透视表和图表分析。,Sales_Records_5000_EN (1).xlsx,我们的智能体更具专业性 并且我们耗时4分钟相较AnyGen的5分半更短 输出的报告内容更准确 可以当作good case来使用
-pdf,转换工具,待验证,全能 PDF 工具集：提取、合并、拆分、旋转、添加水印、创建、填写表单、加密 PDF，以及对扫描版 PDF 执行 OCR 使其可搜索。,anthropic,https://github.com/anthropics/skills/tree/main/skills/pdf,,,,
-deep-research,学生专用,待验证,,AnyGen,,,,,
-excel-analysis,数据分析,待验证,,AnyGen,,,,,
-anything-to-infographic,内容创作,已验证,,AnyGen,,,,,
-market-research-reports,市场营销,待验证,,davila7,,,,,
-data-storytelling,市场营销,待验证,,wshobson,,,,,
-daily-news-report,通用,未导入,从预定义 URL 收集和筛选技术内容，生成 Markdown 格式的每日报告。,AnyGen,,,,,
-skill-judge,通用,未导入,通过对照官方标准评估 SKILL.md 文件和技能包，评估智能体技能设计的质量，并提供详细评分和改进建议。,AnyGen,,,,,
+pdf,转换工具,待验证,全能 PDF 工具集：提取、合并、拆分、旋转、添加水印、创建、填写表单、加密 PDF，以及对扫描版 PDF 执行 OCR 使其可搜索。,anthropic,https://github.com/anthropics/skills/tree/main/skills/pdf,,Use the pdf skill to merge three product manuals into a single PDF file and add the company watermark to each page.,"skill_file_token:QHV9bpPGXof3kMxZ5hDl6I1Hgwc
+Merge Product Manuals with Watermark | https://www.anygen.io/task/VFaKpIT9rawqLygruldlZQLCg5e",
+deep-research,学生专用,待验证,"Assist with literature reviews, paper analysis, research summaries, methodology evaluation, and citation formatting for academic and scholarly writing.",AnyGen,,,"Use the deep-research skill to conduct an in-depth multi-source research on ""the hallucination problem of large models"" and generate a comprehensive analysis report with citations.","skill_file_token:UWzHb4QeoorfK2x8JAtlJpNcgPe
+Interdisciplinary Review of Sustainable Energy Advances | https://www.anygen.io/task/PphypZTIKa9XrjgpUXQliQsOgac",
+excel-analysis,数据分析,待验证,"Analyze Excel (.xlsx) spreadsheets by creating pivot tables, generating charts, and performing data analysis on tabular data.",AnyGen,,,Use the excel-analysis skill to perform pivot analysis on the uploaded financial statements and generate trend charts of key indicators.,"skill_file_token:INKXbFOoWoVmSZx5FtelbDGygnb
+Excel Data Cleaning PivotTables and Charts | https://www.anygen.io/task/LtILp5X9FaFzQyggEJulqghcgBC | img_token:QJSZb8E0eoWMRFxffmjlQ5iPgyf",
+anything-to-infographic,内容创作,已验证,"Convert text, links, audio/video/YouTube, or local files into a single infographic poster by extracting/transcribing key points and structuring them into a concise visual brief for image generation.",AnyGen,,,Use the anything-to-infographic skill to convert a technical article about how Agent works into a clear-structured infographic.,"skill_file_token:BYgJbbTWCoMOj6xZsu3l0MOigkf
+Infographic Poster for arXiv Paper 2407.15865 | https://www.anygen.io/task/TmZbpFlkOabfpXgXv51loI7Wgru | img_token:P7EabAb3Ro9bkUxwXaTlBTjugIg
+AI Development Video Infographic Summary | https://www.anygen.io/task/Xhmep8LfAayyVXgyUMJliDl7gNb | img_token:NKY8bNiLGoD2pFxvE87lw6UAg9e",
+market-research-reports,市场营销,待验证,"Generate detailed market research reports with professional LaTeX formatting, data-driven visuals, and strategic analyses using frameworks like Porter's Five Forces, PESTLE, SWOT, and BCG Matrix.",davila7,,,"Use the market-research-reports skill to generate an industry analysis report on China's new energy vehicle sector with over 50 pages, including Porter's Five Forces and SWOT analysis.","skill_file_token:F0AkbLzdaoui3exCPi4lCAQSgff
+European Smart Home Market Research Report | https://www.anygen.io/task/KLGLpTeQaauzFHg5vz6le1zIgLl | img_token:X4U4bZQxuoomgsxyXaUlReP2gbf",
+data-storytelling,市场营销,待验证,"Convert data into clear, engaging narratives by combining visualizations, context, and structured storytelling for reports, presentations, and stakeholder communications.",wshobson,,,Use the data-storytelling skill to transform quarterly user growth data into a data storytelling presentation for executive reporting.,"skill_file_token:RC41bGzkfoQnVbxsYHZlToW3gBc
+Executive Data Story Report on Customer Growth | https://www.anygen.io/task/MBxgpmH2baOippg548clqTxngES",
+daily-news-report,通用,未导入,从预定义 URL 收集和筛选技术内容，生成 Markdown 格式的每日报告。,AnyGen,,,Use the daily-news-report skill to crawl today's technology news and generate a filtered technology daily report Markdown document.,"skill_file_token:UpB2budw8ozs2oxYQy2lG2kegVf
+Curated Daily Financial News Report | https://www.anygen.io/task/XUXcpRs4laOnzig1oxVlS5FDgVe
+Latest Software Development News Digest | https://www.anygen.io/task/ARI0p7HpEatpdfgbVXilkExZgah",
+skill-judge,通用,未导入,通过对照官方标准评估 SKILL.md 文件和技能包，评估智能体技能设计的质量，并提供详细评分和改进建议。,AnyGen,,,Use the skill-judge skill to conduct a multi-dimensional quality assessment and provide improvement suggestions for a newly created SKILL.md.,"skill_file_token:XQapbxTK6oFl5sxbMfklgdvvgpc
+Skill Package Review and Improvement Suggestions | https://www.anygen.io/task/PlVXpmFPRai5oog1midl7UobgAb",
 ui-ux-pro-max,产品设计,未导入,,AnyGen,,,,,
-prd,产品设计,未导入,,AnyGen,,,,,
-ui-design-system,产品设计,未导入,,AnyGen,,,,,
-ui-ux-pro-max,产品设计,未导入,,AnyGen,,,,,
-product-strategist,产品设计,未导入,,AnyGen,,,,,
-ux-researcher-designer,产品设计,未导入,,AnyGen,,,,,
-mcp-builder,开发者,未导入,,AnyGen,,,,,
-writing-plans,开发者,未导入,,AnyGen,,,,,
-web-design-guidelines,开发者,未导入,,AnyGen,,,,,
-vue-best-practices,开发者,未导入,,AnyGen,,,,,
-web-artifacts-builder,开发者,未导入,,AnyGen,,,,,
-audit-website,开发者,未导入,,AnyGen,,,,,
-building-native-ui,开发者,未导入,,AnyGen,,,,,
-typescript-write,开发者,未导入,,AnyGen,,,,,
-matplotlib,数据分析,未导入,,AnyGen,,,,,
-seaborn,数据分析,未导入,,AnyGen,,,,,
-exploratory-data-analysis,数据分析,未导入,,AnyGen,,,,,
-kpi-dashboard-design,数据分析,未导入,,AnyGen,,,,,
-visualization-expert,数据分析,未导入,,AnyGen,,,,,
-seo-review,市场营销,未导入,,AnyGen,,,,,
-programmatic-seo,市场营销,未导入,,AnyGen,,,,,
-copywriting,市场营销,未导入,,AnyGen,,,,,
-content-strategy,市场营销,未导入,,AnyGen,,,,,
-pricing-strategy,市场营销,未导入,,AnyGen,,,,,
-marketing-psychology,市场营销,未导入,,AnyGen,,,,,
-lead-research-assistant,市场营销,未导入,,AnyGen,,,,,
-startup-financial-modeling,市场营销,未导入,,AnyGen,,,,,
-paid-ads,市场营销,未导入,,AnyGen,,,,,
-executing-marketing-campaigns,市场营销,未导入,,AnyGen,,,,,
-analytics-tracking,市场营销,未导入,,AnyGen,,,,,
-launch-strategy,市场营销,未导入,,AnyGen,,,,,
-react-email,市场营销,未导入,,AnyGen,,,,,
-page-cro,市场营销,未导入,,AnyGen,,,,,
-app-store-optimization,市场营销,未导入,,AnyGen,,,,,
-customer-support,市场营销,未导入,,AnyGen,,,,,
-onboarding-cro,市场营销,未导入,,AnyGen,,,,,
-excalidraw,转换工具,未导入,,AnyGen,,,,,
-youtube-downloader,转换工具,暂缓,,AnyGen,,,,,
-book-translation,转换工具,未导入,,AnyGen,,,,,
-ocr-structured-output,转换工具,未导入,,AnyGen,,,,,
-ai-podcast-creation,转换工具,暂缓,,AnyGen,,,,,
-remotion-best-practices,转换工具,未导入,,AnyGen,,,,,
-docx,转换工具,未导入,,AnyGen,,,,,
-mermaid-diagrams,转换工具,未导入,,AnyGen,,,,,
-image-enhancer,转换工具,未导入,,AnyGen,,,,,
-markitdown,转换工具,未导入,,AnyGen,,,,,
-ffmpeg,转换工具,未导入,,AnyGen,,,,,
-video-report,转换工具,未导入,,AnyGen,,,,,
-baoyu-compress-image,转换工具,未导入,,AnyGen,,,,,
-slack-gif-creator,转换工具,未导入,,AnyGen,,,,,
-research-paper-writer,学生专用,未导入,,AnyGen,,,,,
-latex-writer,学生专用,未导入,,AnyGen,,,,,
-read-arxiv-paper,学生专用,未导入,,,,,,,
-tailored-resume-generator,学生专用,未导入,,,,,,,
-content-research-writer,学生专用,未导入,,,,,,,
-peer-review,学生专用,未导入,,,,,,,
-scientific-critical-thinking,学生专用,未导入,,,,,,,
-denario,学生专用,未导入,,,,,,,
-ship-learn-next,学生专用,未导入,,,,,,,
-gaokao-liberal-arts-tutor,学生专用,未导入,,,,,,,
-creative-writing,内容创作,未导入,,,,,,,
-humanizer,内容创作,未导入,,,,,,,
-fact-checker,内容创作,未导入,,,,,,,
-social-content,内容创作,未导入,,,,,,,
-meme-factory,内容创作,未导入,,,,,,,
-canvas-design,内容创作,未导入,,,,,,,
-brainstorming,内容创作,未导入,,,,,,,
-logo-creator,内容创作,未导入,,,,,,,
-editor,内容创作,未导入,,,,,,,
-baoyu-xhs-images,内容创作,未导入,,,,,,,
-writing-clearly-and-concisely,内容创作,未导入,,,,,,,
-interactive-portfolio,内容创作,未导入,,,,,,,
-email-drafter,内容创作,未导入,,,,,,,
-meeting-insights-analyzer,内容创作,未导入,,,,,,,
-section-logic-polisher,内容创作,未导入,,,,,,,
-theme-factory,内容创作,未导入,,,,,,,
-draft-polisher,内容创作,未导入,,,,,,,
+prd,产品设计,未导入,"Generate comprehensive Product Requirements Documents (PRDs) for software and AI features, including executive summaries, user stories, technical specifications, and risk analysis.",AnyGen,,,Use the prd skill to generate a product requirements document that includes user stories and technical specifications for an AI-driven intelligent customer service feature.,"skill_file_token:J5JzblWbtoM78NxjyK2lljy7gGh
+Cross Platform E Commerce PRD | https://www.anygen.io/task/CaWBpW6QIa5maMgbuU3luPRogUh",
+ui-design-system,产品设计,未导入,"Generate design tokens, document components, perform responsive design calculations, and streamline developer handoff to create and maintain consistent UI design systems.",AnyGen,,,"Use the ui-design-system skill to generate a complete design system including color, font, and spacing tokens.","skill_file_token:SK81bcKOuoImHzxdlnslkQV6gob
+Productivity App Interface Design Proposal | https://www.anygen.io/task/TRA2pP6AEadjOfgWL0dlqXpqgmh | img_token:BYKwbhayToIUv4x4ZbClFxt3gVh",
+ui-ux-pro-max,产品设计,未导入,"Provide UI/UX design support across various styles, palettes, fonts, and components for web and mobile projects, including planning, building, reviewing, and optimizing interfaces using popular frameworks and design principles.",AnyGen,,,"Use the ui-ux-pro-max skill to select color schemes, font pairings, and interactive animation styles for a mobile e-commerce application.","skill_file_token:ZDQrbZuwTo4rOBxwJ7NlB8sUgod
+UI UX Pro Max Design for Education Platform | https://www.anygen.io/task/UvdrpS3vOaj4nWgMWRolXM6cgNh | img_token:XnHQbhE6Do7ISWxxtYCl1ZDxgDb",
+product-strategist,产品设计,未导入,"Support strategic product leadership by generating OKR cascades, conducting market analysis, setting vision, and planning team scaling for goal alignment and organizational growth.",AnyGen,,,Use the product-strategist skill to generate a cascading decomposition plan from company OKRs to product team goals.,"skill_file_token:QK2DbYzvKo7cMkxsWYcl5z2BgCg
+Framework from Annual Vision to Quarterly Goals | https://www.anygen.io/task/SoSkpuIDlabVVKgavD5ls9JWgmg",
+ux-researcher-designer,产品设计,未导入,"Provides tools for data-driven persona creation, journey mapping, usability testing, and research synthesis to support user research and design validation.",AnyGen,,,Use the ux-researcher-designer skill to generate three data-driven user personas and customer journey maps based on user interview data.,"skill_file_token:XuHJbpsqOoYseqx0pCZloMw4gAd
+User Personas and Design Insights | https://www.anygen.io/task/SNyFpcTfWa4Hj0gTyKfldyr3glf",
+mcp-builder,开发者,未导入,"Design and develop MCP servers that allow large language models to connect with external APIs or services, supporting implementations in Python or Node/TypeScript.",AnyGen,,,Use the mcp-builder skill to create an MCP server that allows LLM to call the GitHub API.,"skill_file_token:FKKebolwio1mYSxH8zTl9Pg2g9f
+Develop MCP Server for Weather API | https://www.anygen.io/task/YiZQpzG2jat0ZHg0YsBlDgB3gS9
+MCP Server for Real-Time Stock Data | https://www.anygen.io/task/FucmpBLKBaXV41gVs7DlN5Gsghd",
+writing-plans,开发者,未导入,Analyze and organize multi-step task specifications or requirements to prepare for development or implementation.,AnyGen,,,Use the writing-plans skill to write a detailed engineering implementation plan document for a multi-step functional requirement.,"skill_file_token:CAV0bi9yooLSmlxnkEUlwPMKgkh
+Executable Implementation Plan from Requirements | https://www.anygen.io/task/PSYtpi8GhanzhPgrq8Ll1fODg5f",
+web-design-guidelines,开发者,未导入,"Analyze UI code to assess compliance with web interface guidelines, accessibility standards, and design best practices.",AnyGen,,,Use the web-design-guidelines skill to conduct a Web Interface Guidelines compliance review on the website UI code.,"skill_file_token:TfUwbWzauohDE3xnkBPl6ORCgh5
+Corporate Portal UX and Accessibility Review | https://www.anygen.io/task/XJYQpQgClaljmegmQgxln9tzgNc",
+vue-best-practices,开发者,未导入,"Develop and manage Vue.js applications using Vue 3 with a focus on the Composition API, TypeScript, and related tools like Vue Router, Pinia, SSR, and Vite for efficient component and state management.",AnyGen,,,Use the vue-best-practices skill to refactor a Vue component in accordance with the Composition API + TypeScript specifications.,"skill_file_token:MpU6bjkpnojgnIxplDSlDWwIgbh
+Vue Composition API Shopping Cart with SSR | https://www.anygen.io/task/EUNUptZ5lasOn8gx5t8lVzd4gde",
+web-artifacts-builder,开发者,未导入,"Develop complex multi-component HTML artifacts with state management and routing using modern frontend technologies like React, Tailwind CSS, and shadcn/ui components.",AnyGen,,,Use the web-artifacts-builder skill to build a multi-component interactive data dashboard page using React+Tailwind+shadcn/ui.,"skill_file_token:DrnJbfiFRo2sNkxAElil64s6gtf
+React Task Tracking Dashboard with Multi-View | https://www.anygen.io/task/Z4b4pjXqPaI9OegubvBl3jhegvd | img_token:CYUGbuDeHoj9qSxO13LlFRmAgne",
+audit-website,开发者,未导入,"Analyze websites for SEO, performance, security, and technical issues across 230+ rules, providing detailed reports with health scores, broken links, meta tag analysis, and actionable recommendations.",AnyGen,,,"Use the audit-website skill to conduct a comprehensive health check of the company's official website covering over 230 rules including SEO, performance, and security.","skill_file_token:GVxsbLN1ioY7zKxQAyAlzRvRg5c
+Ecommerce Website Health Audit Report | https://www.anygen.io/task/Bs62pl9ZOagQCNgVmSel3uMpgWe
+Educational Website Technical Audit Report | https://www.anygen.io/task/X42kpbHNGa731fgGrEKlsHuFgQg",
+building-native-ui,开发者,未导入,"Provides a comprehensive overview of building apps with Expo Router, covering fundamentals, styling, components, navigation, animations, design patterns, and native tab integration.",AnyGen,,,"Use the building-native-ui skill to build an Expo Router mobile application with navigation, animations, and native controls.","skill_file_token:HZhFbmLGco4o31xN6yRlp8qCgIc
+Cross Platform Mobile App with Native UI | https://www.anygen.io/task/FV62p8tPiamj23gb7jflfnrzghh | img_token:Pl30bYvijo8VHlxhBHdlVNxWgnu",
+typescript-write,开发者,未导入,Write and refactor TypeScript and JavaScript code adhering to Metabase coding standards and best practices.,AnyGen,,,Use the typescript-write skill to write a type-safe API service module following Metabase coding standards.,"skill_file_token:H1KVbUImHotcpRx8Lf8l79LfgYf
+Responsive TypeScript Interface Design | https://www.anygen.io/task/MaerpznR0atojSgExj2lvYbdg1b",
+matplotlib,数据分析,未导入,"Generate various scientific and publication-quality plots such as line, scatter, bar, histogram, heatmap, and 3D charts, with support for subplots and exporting to PNG, PDF, or SVG formats.",AnyGen,,,"Use the matplotlib skill to create a multi-panel scientific visualization containing line charts, heatmaps, and 3D surface plots for a set of meteorological data.","skill_file_token:Vp0SbYc1zoZKGHx160Vl0Ahfg2g
+Shanghai Weather Data Visualization Charts | https://www.anygen.io/task/ZFuHp8cMGaBhpsgzrHOlMXQlgrf | img_token:GssSb951QoBFa9xW5bNllSavgGh",
+seaborn,数据分析,未导入,"Generate various statistical visualizations such as scatter plots, box plots, violin plots, heatmaps, pair plots, regression charts, correlation matrices, KDE, and faceted plots for data exploration and presentation.",AnyGen,,,"Use the seaborn skill to create box plots, violin plots, and correlation heatmaps for user behavior data.","skill_file_token:MNrqbpvqtodOM3x1rh9lzAXTgee
+Statistical Visualization from CSV Zip | https://www.anygen.io/task/G0rPpoGC1ag3dSg2J4Blp0Z9g9D | img_token:JcBvbsqwQoUDCpxDwqJly5edgYd",
+exploratory-data-analysis,数据分析,未导入,"Analyze scientific data files in over 200 formats to assess structure, content, and quality, generating detailed markdown reports with format-specific insights and analysis recommendations across fields like chemistry, bioinformatics, and microscopy.",AnyGen,,,Use the exploratory-data-analysis skill to conduct a comprehensive exploratory analysis of a proteomics data file and generate a quality assessment report.,"skill_file_token:X0Efb21TXoIN7yxXZQ0lHqZagKd
+Proteomics Experimental Results EDA Report | https://www.anygen.io/task/Wq0upFnSxa0cvUgNz9flHlizgac",
+kpi-dashboard-design,数据分析,未导入,"Design and build KPI dashboards by selecting relevant metrics, applying visualization best practices, and enabling real-time data monitoring.",AnyGen,,,"Use the kpi-dashboard-design skill to design a real-time monitoring dashboard for the e-commerce operation team, which includes GMV, conversion rate and user retention.","skill_file_token:UksRbkvxjo4izIxoESmlfhskgQd
+Real Time Global Supply Chain Dashboard | https://www.anygen.io/task/LpSypqwTjaHB9agIpptl6rCRgee | img_token:Zz4qb4bpvoVP5ExdT6OlwEuagyh
+Digital Marketing KPI Dashboard Design | https://www.anygen.io/task/TTjqpcw2jaNGHCgGL3IlvgwrgVb | img_token:EwnxbuAvyo6YzixZ0gulRgifggc",
+visualization-expert,数据分析,未导入,"Provide recommendations for selecting and designing charts and visualizations to effectively communicate data in dashboards, reports, or presentations.",AnyGen,,,Use the visualization-expert skill to select an appropriate chart type for a set of sales data and generate a professional visualization plan.,"skill_file_token:K1DcbGQUvoByD3xQI5LlMRCmgWd
+Sales Data Visualization Dashboard | https://www.anygen.io/task/AWsipnteiaKXwng9OvzlS0kPgrf | img_token:JbbFbQ80loTRePxzM0GlM6oRgWf",
+seo-review,市场营销,未导入,"Analyze JavaScript concept pages to identify SEO improvements that enhance search visibility, optimize for featured snippets, and boost ranking potential.",AnyGen,,,Use the seo-review skill to conduct a search visibility optimization audit for the JavaScript concept documentation page.,"skill_file_token:WblubII7qoD8DYxM7trlQhKjgjf
+SEO Review and Optimization Suggestions | https://www.anygen.io/task/H5uDpffYZa3NzQgH2O4lFPzegAb",
+programmatic-seo,市场营销,未导入,"Generate large volumes of SEO-optimized web pages using templates and data, including directory, location, comparison, and keyword-targeted pages.",AnyGen,,,"Use the programmatic-seo skill to batch create regional landing pages targeting the keywords ""[tool name]+[city]"".","skill_file_token:DjoVbf8XCoeg00xY5Cnl8FsEg0d
+Programmatic SEO for Tokyo Attractions | https://www.anygen.io/task/Qezppfaywav3ZLgFOCSlCqaYgbg | img_token:T0S8be7ZHojCLYxKUYblOiLUgGe",
+copywriting,市场营销,未导入,"Generate, rewrite, or enhance marketing copy for various web pages such as homepages, landing pages, pricing pages, feature pages, about pages, and product pages.",AnyGen,,,Use the copywriting skill to write a conversion rate-oriented product landing page copy for a project management tool.,"skill_file_token:L4JAbhRJPohQblxHEppl6hNygiP
+Compelling Homepage Copy for Online Education | https://www.anygen.io/task/RRsapu0WRaDbDCgSxWslXRirgzg
+Persuasive Cloud Storage Pricing Copy | https://www.anygen.io/task/Myk7pn5UMaTskvgKpABlEju7gQe",
+content-strategy,市场营销,未导入,"Generate content strategies and topic ideas to guide planning and development of blog posts, articles, or other written materials.",AnyGen,,,Use the content-strategy skill to plan content topics and publishing rhythm for a B2B SaaS blog over the next three months.,"skill_file_token:XpgFbpZzBoZhdvxLir1lCiQjg8c
+Two Month Environmental Tech Content Strategy | https://www.anygen.io/task/IFr6pljEfaGpr2gmgR9lb0Vngyc
+Five Week Blog Plan for Healthy Living | https://www.anygen.io/task/Ymtup2AgIaLC7ggOXi5l2MCagSd",
+pricing-strategy,市场营销,未导入,"Provide guidance on pricing strategies, packaging options, and monetization models, including research on pricing tiers, value metrics, and customer willingness to pay.",AnyGen,,,"Use the pricing-strategy skill to design a three-tier pricing plan (Free, Pro, and Enterprise) for a collaboration tool.","skill_file_token:Kh84b80tXodPSfx4OrYlIvAngEb
+Cloud Storage Subscription Tier Design | https://www.anygen.io/task/LDI3p6eW3asOoxgpTLyl0mJAgOh
+Health App Pricing Tier Strategy | https://www.anygen.io/task/XRvrpnux9aZMWNgbjpclnmRZgwg",
+marketing-psychology,市场营销,未导入,"Access and apply over 70 psychological principles and mental models to enhance marketing strategies, focusing on consumer behavior, decision-making, and persuasion.",AnyGen,,,Use the marketing-psychology skill to analyze which cognitive bias principles can be applied to product pricing pages to improve conversion.,"skill_file_token:NmD5bLyPQo4tXIxn6SmlNNYWgLb
+Psychological Triggers for Email Clicks | https://www.anygen.io/task/LxwYprbBOaj1q3gZ0bNlEKsigAe",
+lead-research-assistant,市场营销,未导入,"Analyze your business to identify high-quality leads and generate actionable contact strategies for sales, business development, and marketing purposes.",AnyGen,,,Use the lead-research-assistant skill to automatically filter out 50 matching potential client companies and contact strategies based on product features.,"skill_file_token:Tl35bxUYBo73nBx17P4l3uEWgJe
+New Energy Battery Market Sales Targets | https://www.anygen.io/task/GYaapNRCua7ZzCgn7V4lw9yYgJe",
+startup-financial-modeling,市场营销,未导入,"Generate financial projections and models for startups, including revenue forecasts, burn rate calculations, cash flow modeling, and multi-year financial planning.",AnyGen,,,Use the startup-financial-modeling skill to build a three-year revenue forecast and cash flow model for a SaaS startup.,"skill_file_token:XNhjbhYgboHMcpxkGw5l9hj4grf
+Two Year Hardware Startup Financial Model | https://www.anygen.io/task/KApApHbinagzDXgHIEel1X0OgUg",
+paid-ads,市场营销,未导入,"Assist with planning, creating, and optimizing paid advertising campaigns across platforms like Google Ads, Meta, LinkedIn, and Twitter, including ad copy, audience targeting, and performance metrics such as ROAS and CPA.",AnyGen,,,"Use the paid-ads skill to design Google Ads and Meta advertising campaigns for an online education platform, optimizing the CPA to within 50 yuan.","skill_file_token:BBnpbAu8ZoBZBuxNsD6lfraygzc
+Cross Platform Mobile App Ad Campaign | https://www.anygen.io/task/Gv83pYJY4ayKHGg95g2l1Zhmg1e",
+executing-marketing-campaigns,市场营销,未导入,"Develop and optimize marketing campaigns by planning content strategy, managing social media and email outreach, and analyzing performance metrics.",AnyGen,,,"Use the executing-marketing-campaigns skill to plan a cross-channel new product launch marketing campaign, covering email, social media, and content promotion.","skill_file_token:Au2ybUyi1oDu6TxU2qXlWlqrgBg
+Digital Marketing Plan for Conversion Optimization | https://www.anygen.io/task/WWhWplTYeaxcnQg9su7l7byfguf",
+analytics-tracking,市场营销,未导入,"Set up, optimize, or audit analytics tracking and measurement using tools like Google Analytics 4, conversion and event tracking, UTM parameters, and tag managers.",AnyGen,,,Use the analytics-tracking skill to configure GA4 event tracking and UTM parameter schemes for a SaaS product.,"skill_file_token:CZiKbF3FOoAtS1xRPyllOzfpggb
+GA4 Event Tracking and UTM Optimization Plan | https://www.anygen.io/task/GHCHpsEdcaZHzYgX6RRlWHrkg4d
+GA4 Event Tracking and UTM Standardization Framework | https://www.anygen.io/task/PcCqprBwgaOWICgR9uXlyviFg7f",
+launch-strategy,市场营销,未导入,"Plan and strategize product launches, feature announcements, and release campaigns, including phased rollouts, channel selection, and maintaining launch momentum.",AnyGen,,,Use the launch-strategy skill to design a three-phase launch plan for a SaaS product from closed beta to official release on Product Hunt.,"skill_file_token:SFZ8bLCIioVpP5xoj9El7Mu4gfh
+Multi-Phase Mobile App Launch Strategy Plan | https://www.anygen.io/task/PhsIpbZy2akVS2gPiY9lvMa2gXf
+Three-Phase Online Education Feature Launch Plan | https://www.anygen.io/task/ZDIfpWYb9aJc4ugbXqclhSgHgLh",
+react-email,市场营销,未导入,"Build HTML email templates using React components for various types of emails such as welcome messages, password resets, notifications, order confirmations, newsletters, and transactional emails.",AnyGen,,,Use the react-email skill to build a welcome email template compatible with all email clients using React components.,"skill_file_token:Cry4ba9EJo5W9kxZoV1ldbCoglb
+Multilingual React Email Order Confirmation Template | https://www.anygen.io/task/W4qIpbpU2a2ppugK56Il3DdbgFc
+React Email Newsletter Template with Dynamic Blocks | https://www.anygen.io/task/Q3hppIBIiaPGhZgpWHHlH5CfgSd",
+page-cro,市场营销,未导入,"Analyze and optimize marketing pages such as homepages, landing pages, pricing pages, feature pages, and blog posts to improve conversion rates and user engagement.",AnyGen,,,Use the page-cro skill to analyze the user churn points on the product homepage and provide actionable conversion rate optimization solutions.,"skill_file_token:HUTvbpbnRo4MhMxGgfAlybr8gqg
+SaaS Pricing Page UX and CRO Strategy | https://www.anygen.io/task/J3QxpeTSva0YFPgxiJTlUnQIg7f
+Tech Blog Article Engagement Optimization | https://www.anygen.io/task/RGnYpmHxhahVSUgSTBSlOWrTgef",
+app-store-optimization,市场营销,未导入,"Research, optimize, and track mobile app performance on the Apple App Store and Google Play Store using a comprehensive App Store Optimization (ASO) toolkit.",AnyGen,,,"Use the app-store-optimization skill to optimize the title, keywords, and screenshot descriptions of a fitness app on the App Store.","skill_file_token:FFs3bYkZUoPgkAxheGYlvjr4grf
+Educational App Store Optimization | https://www.anygen.io/task/LgNMpq3pLaQPC0gLx2Kl9fOng7b
+App Store Optimization for Financial App | https://www.anygen.io/task/Ohs3pTglsaxNrAglmCUlVPkzgEe",
+customer-support,市场营销,未导入,"Provide structured guidance for managing customer support interactions, including responding to inquiries, troubleshooting issues, and escalating problems.",AnyGen,,,Use the customer-support skill to write a professional customer service email in response to a user's refund complaint following the HEAR method framework.,"skill_file_token:PYBcbzThBo0fEoxmH4klz2UEgbc
+Professional Response to Account Security Concerns | https://www.anygen.io/task/US32pqUTXaBYFWg4SRllX4RLgw3
+Customer Service Email Using CAB Strategy | https://www.anygen.io/task/CUOfpkCKoaHRx1gT8HplVwfagSc",
+onboarding-cro,市场营销,未导入,"Analyze and improve user onboarding and activation processes to enhance first-run experiences, activation rates, and time-to-value for new users.",AnyGen,,,"Use the onboarding-cro skill to optimize the onboarding flow after new user registration and shorten the time to reach the ""Aha! Moment"".","skill_file_token:HbyibLhZio77Ngx0y5Sl3shvgOc
+Ecommerce New Customer Purchase Analysis | https://www.anygen.io/task/ZTyBp4GOYaqk2VgJQdJlIkB2g9d
+Optimizing SaaS User Activation Process | https://www.anygen.io/task/FROPptLmRaamJMgknbml0wIHgxe",
+excalidraw,转换工具,未导入,"Create or edit hand-drawn style diagrams (e.g., flowcharts and architecture diagrams) by generating Excalidraw element JSON and exporting it as .excalidraw files.",AnyGen,,,Use the excalidraw skill to generate a hand-drawn Excalidraw flowchart + architecture diagram from my notes,"skill_file_token:AlxCbcYl3ok4tCxjuYKl81HngTf
+Generate Excalidraw Flowcharts from Notes | https://www.anygen.io/task/Z5zZpaDGDaaFr9gjdExlO5hbgbd | img_token:X6wVbW84AoAJ7cxpL6LlxZmBgWO",
+youtube-downloader,转换工具,暂缓,"Download YouTube videos in various formats (mp4, webm, mkv) and quality levels (up to 1080p), including options for audio-only MP3 downloads.",AnyGen,,,Use the youtube-downloader skill to download a 1080p MP4 version of a YouTube tutorial video to the local device.,"skill_file_token:ZrjJbLBS4oZB6zxc6oulMz9igg9
+Download YouTube Music Video in 720p WEBM | https://www.anygen.io/task/L9XHpcb5faBVRagDuyPlrgfcgrd
+Batch Download Science Shorts from YouTube | https://www.anygen.io/task/BYRopWaEIaq4XKg8qmnlfl8Vgsg",
+book-translation,转换工具,未导入,"Translate chapters and user interface text from ""The Interactive Book of Prompting"" into different languages.",AnyGen,,,"Use the book-translation skill to translate the chapters of ""The Interactive Book of Prompting"" into Chinese.","skill_file_token:OY6ObOcZKozf7CxCrDQl8SQegWe
+Übersetzung des IEEE Spectrum Artikels über Gemini Robotics | https://www.anygen.io/task/AUe7pvK8MaWbBKgWysdlBAg6gjg
+Guida di viaggio di Barcellona | https://www.anygen.io/task/SDGYpDU3pai2HQgB9I4lIlKxg38",
+ocr-structured-output,转换工具,未导入,"OCR handwriting, scanned documents, and whiteboard photos to extract text, tables, and chart data, then output structured JSON/CSV or editable files such as Word (.doc) and Excel (.xlsx), including optional Mermaid flowcharts rendered to SVG/PNG.",AnyGen,,,Use the ocr-structured-output skill to recognize a photo of handwritten meeting notes into editable text and restore the flowchart structure within it.,"skill_file_token:LGRLbMAhwo2qmPxFUbGldqkYg4d
+Scanned PDF OCR Conversion Outputs | https://www.anygen.io/task/NyZTp0c62aXgkkg9c6alcnl2gTe",
+ai-podcast-creation,转换工具,暂缓,"Produce AI-generated audio content such as podcasts, audiobooks, and voiceovers using text-to-speech, multi-voice conversations, music integration, and audio editing tools.",AnyGen,,,Use the ai-podcast-creation skill to convert a technology news article into an AI podcast with multi-role dialogue and background music.,"skill_file_token:VHZhbxPlxoZ9r3xkjykloKkygBh
+Tech Week Podcast Script and Audio | https://www.anygen.io/task/M7sdpm2Bda6oTpgkNarl8ZcMg4c",
+remotion-best-practices,转换工具,未导入,"Build high-quality Remotion videos. Learn practical best practices for project structure, timeline composition, performance optimization, and exporting.",AnyGen,,,Use the remotion-best-practices skill to create a three-minute product introduction video with dynamic data visualization using React.,"skill_file_token:Bg5ZbSQxzoRhY0xfcdFlCYfegKe
+2025 Global Gaming Market Trends Video | https://www.anygen.io/task/Gh1mpKve7aGzHwgWK5DltY1pgfc",
+docx,转换工具,未导入,"Create, read, edit, and manipulate Word (.docx) documents, including formatting, content extraction, image insertion, find-and-replace, tracked changes, comments, and generating reports, letters, or templates.",AnyGen,,,"Use the docx skill to generate a formal Word document with company letterhead, table of contents, and page numbers based on the provided meeting minutes.","skill_file_token:YBYOb74HKocYeDxIzi3lEV8ngFi
+Convert Word Document with Tracked Changes | https://www.anygen.io/task/VJcepry4zas1HXgmHwAlb0h4gsg",
+mermaid-diagrams,转换工具,未导入,"Create and visualize various software diagrams using Mermaid syntax, including class diagrams, sequence diagrams, flowcharts, ER diagrams, C4 architecture, state diagrams, git graphs, pie charts, and Gantt charts for modeling system architecture, workflows, and data relationships.",AnyGen,,,"Use the mermaid-diagrams skill to draw architecture diagrams, sequence diagrams, and ER database relationship diagrams for the microservice system.","skill_file_token:Pb2Fbd0wzo6Y1dxIm5clELtSgsg
+Mermaid Diagrams for Microservices Architecture | https://www.anygen.io/task/KsSIp0vV9aasnQgJsfkllNOFgHc | img_token:JR9YbbMWNoLlFJxgcdnlobb2gkg",
+image-enhancer,转换工具,未导入,"Improves the quality of images, especially screenshots, by enhancing resolution, sharpness, and clarity.",AnyGen,,,Use the image-enhancer skill to enhance the clarity of a set of low-resolution product screenshots for official website display.,"skill_file_token:JdnZbgIUhotiF0xGPKmlmJw8gJf
+Product Screenshot Resolution Enhancement | https://www.anygen.io/task/L97BpdO3La1gurgnIWqlVDazgRe",
+markitdown,转换工具,未导入,"Convert files and content into clean Markdown. Supports PDFs, Office documents, images (OCR), audio (transcription), web pages, data files, and more.",AnyGen,,,Use the markitdown skill to convert a 120-page PDF research report into a structured Markdown document.,"skill_file_token:JUaXb4CLkoNltBxsquClyAvKgVf
+Comprehensive Material Archive to Markdown | https://www.anygen.io/task/MLohpZjisaW3D0gNinElLcBYgqc",
+ffmpeg,转换工具,未导入,"Process and convert video and audio files using FFmpeg for tasks like format conversion, resizing, compression, and audio extraction.",AnyGen,,,"Use the ffmpeg skill to compress a 4K video to 720p, extract the audio track, and convert it to MP4 format.","skill_file_token:Gt9wbHzEboNDzcxZ0oylRIfpgFs
+FFmpeg Video Clipping and Audio Export | https://www.anygen.io/task/Ti9bpTjbJaBVyEgoD2ClShGNghb",
+video-report,转换工具,未导入,Create detailed reports summarizing the content and key information of video files.,AnyGen,,,Use the video-report skill to diagnose video rendering anomalies in a Remotion project and generate a debugging report.,"skill_file_token:NyNPb6FN4osN5exm3iTlKshcgwT
+Documentary Video Analysis Report | https://www.anygen.io/task/DwcupIUyjaehkfgufn8lvY99gMe
+Conference Recording Analysis and Report | https://www.anygen.io/task/RqCbpF7LwaTvJvgFewolSCEogXe",
+baoyu-compress-image,转换工具,未导入,Reduce image file size or convert images to WebP or PNG while maintaining quality.,AnyGen,,,"Use the baoyu-compress-image skill to batch compress a batch of product images into WebP format, controlling the size within 100KB.","skill_file_token:V0aLb5nAZoVlWpx0MCllJEIWgxf
+Compress Images to Smaller WebP Format | https://www.anygen.io/task/X0mTpShI6aNWbDgzkQWlbU3VgWb",
+slack-gif-creator,转换工具,未导入,"Create and optimize animated GIFs tailored for Slack, including validation tools and animation guidelines to meet platform constraints.",AnyGen,,,Use the slack-gif-creator skill to create a set of 128x128 pixel animated emojis for Slack team communication.,"skill_file_token:SdRJb3AajofhdCxcAtClbMLmg3h
+Christmas Celebration Emoji GIFs | https://www.anygen.io/task/JLYspi481aVVHYg6HeHlzmCLgxd",
+research-paper-writer,学生专用,未导入,"Generate formal academic research papers formatted to IEEE/ACM standards, including structured content, citations, and scholarly writing style.",AnyGen,,,Use the research-paper-writer skill to write an academic paper on the application of large language models in the education field in IEEE format.,"skill_file_token:YaVrbn5aio0JiOxDEGYlXt6Tggd
+Blockchain Technology in Financial Security | https://www.anygen.io/task/XHgXpSddLao9VPgxmGVlcLUygah
+Advances in Renewable Energy Technology | https://www.anygen.io/task/Bbofp4amEa95NhgoRdrlFes5gAU",
+latex-writer,学生专用,未导入,"Assist with writing and formatting academic papers and professional resumes/CVs on macOS, including LaTeX document preparation, citation management, Markdown to PDF conversion, and support for multiple languages and citation styles.",AnyGen,,,"Use the latex-writer skill to format an academic paper on deep learning according to IEEE format, including support for both Chinese and English.","skill_file_token:HEXDb6XnfoNOC3xtIFElPenMgFe
+Resume and Thesis Latex Templates | https://www.anygen.io/task/resume-and-thesis-latex-templates-HEPwpInXLa0uWdg6gotltHBzgOz",
+read-arxiv-paper,学生专用,未导入,Retrieve and summarize academic papers from arXiv using their URLs.,karpathy,,,"Use the read-arxiv-paper skill to download and deeply interpret the latest Transformer architecture paper on arXiv, and extract key innovations.","skill_file_token:RV9HbjdiBoQYqwx9w5Klviijgxc
+Summary of Recent Quantum Computing Paper | https://www.anygen.io/task/ZkWlpwBXaamwG1gPuogl8tUegad
+Bioinformatics Review Article Summary | https://www.anygen.io/task/TS46piNxCaJIdPgtEUIlLP0yg0b",
+tailored-resume-generator,学生专用,未导入,"Analyze job descriptions to create customized resumes that emphasize relevant experience, skills, and accomplishments for improved job application outcomes.",composiohq,,,"Use the tailored-resume-generator skill to revise the resume based on a Google Product Manager JD, highlighting relevant experience and skill keywords.","skill_file_token:Aydjbp72povVWCxjIIGlQlQcgMc
+Optimized Product Manager Resume | https://www.anygen.io/task/TKxBpyj19aCWtlgJrGOl0OCEgcv",
+content-research-writer,学生专用,未导入,"Enhance your writing by conducting research, adding citations, refining hooks, developing outlines, and providing real-time feedback to improve content quality.",composiohq,,,"Use the content-research-writer skill to write an in-depth analytical article with citations on the theme ""The Impact of Remote Work on Team Efficiency"".","skill_file_token:Bqj1bmffoo7pBSxxIRol4YDDgJd
+Sustainable Development in Global Economy | https://www.anygen.io/task/XZDnppVn0aqZbKgusBLl79XQgTg",
+peer-review,学生专用,未导入,"Assess manuscripts and grant proposals by evaluating methodology, statistics, study design, reproducibility, ethics, figure accuracy, and reporting standards across various disciplines.",davila7,,,Use the peer-review skill to conduct a systematic methodological and statistical analysis review of a bioinformatics paper submitted to a journal.,"skill_file_token:H03ybse4To6Pu0xp4owlI9iFgST
+Evaluation of Environmental Science Grant Design | https://www.anygen.io/task/U6K7p679CaI59lgKy7qldtIGgIh",
+scientific-critical-thinking,学生专用,未导入,"Assess the rigor of research by evaluating methodology, experimental design, statistical validity, biases, confounding factors, and evidence quality using standards like GRADE and Cochrane ROB.",davila7,,,Use the scientific-critical-thinking skill to evaluate the rigor of the research design and statistical validity of a clinical trial for a drug.,"skill_file_token:TPl7bh9R0owqupx9dNPlMm0jgyd
+Evaluating Methods and Evidence in Chronic Disease RCT | https://www.anygen.io/task/S2tJppercad4xagpBBrlOWLpgk7
+Critical Review of Psychological Intervention Study | https://www.anygen.io/task/RaohpNGwnarflrgwxGBl83K7gSj",
+denario,学生专用,未导入,"Automate scientific research workflows by generating ideas, designing methodologies, analyzing data, conducting literature searches, and producing publication-ready LaTeX papers through coordinated multiagent AI systems.",davila7,,,"Use the denario skill to automatically generate research hypotheses from datasets, perform computational experiments, and output papers in LaTeX format.","skill_file_token:IK99b6Ywpo4bfGxNaIPlqRDYgcc
+Research Report Generation Using Denario | https://www.anygen.io/task/WS6upZTawaZToygRLz2lN1nFgvd",
+ship-learn-next,学生专用,未导入,"Convert educational content such as transcripts, articles, and tutorials into structured implementation plans with actionable steps using the Ship-Learn-Next framework.",softaworks,,,Use the ship-learn-next skill to break down the content of a 2-hour React tutorial video into daily executable coding exercise plans.,"skill_file_token:Yoi4bYYZ1oO9W6xbTmpl1cvsgBh
+Phased Project Plan for Software Development | https://www.anygen.io/task/ZWi6pYW4Xa29DLgizO9lHFCGgSe",
+gaokao-liberal-arts-tutor,学生专用,未导入,"Provide guided tutoring in political science, history, and geography using heuristic teaching methods focused on enhancing understanding, memory, and analytical skills for humanities subjects.",openclaw,,,"Use the gaokao-liberal-arts-tutor skill to explain the examination framework of ""China's economic system reform since the reform and opening up"" using heuristic teaching methods.","skill_file_token:N2Akb23rfoeWNwxwouJlUu9JgLg
+World War II Causes and Impacts Analysis | https://www.anygen.io/task/J4xWpcUETa7qlogLlHfl2Qz6gce",
+creative-writing,内容创作,未导入,"Support end-to-end creative writing for novels, screenplays, and stories, from concept and world-building to drafting and revision, with guidance across multiple genres.",AnyGen,,,Use the creative-writing skill to create a 3000-word science fiction short story in the cyberpunk style with the theme of AI awakening.,"skill_file_token:SrrkbTI9Xo7r4ZxLwTYlpV8TgNb
+Adventure in a Techno-Magic Future City | https://www.anygen.io/task/Qs3apF31pa3LecgW0lElb9GMg6f
+International Art Theft Suspense Script | https://www.anygen.io/task/GCYypDrzwadvKdggyNulUj7Qgoe",
+humanizer,内容创作,未导入,Identify and remove common patterns of AI-generated writing to make text sound more natural and human-like.,AnyGen,,,Use the humanizer skill to humanize an AI-generated product introduction copy and eliminate typical AI writing traces.,"skill_file_token:RZpZb4L7Bo9DeCxNisQlcXHng3b
+Humanizing Landing Page Copy | https://www.anygen.io/task/OWWppqI4vaiaqFg6qq2l73UZgyb",
+fact-checker,内容创作,未导入,"Verify factual claims in documents by cross-referencing web and official sources, then suggest corrections for user approval, supporting technical specs, documentation, statistics, and general information.",daymade,,,Use the fact-checker skill to verify the accuracy of all technical parameters and performance data in an AI model comparison document.,"skill_file_token:JAVcbXEIMo8A5Mxh2nnlOjp5gFg
+Fact Checking and Correction Report | https://www.anygen.io/task/GZb3pxiexajEpFgJpZcljBY7gAa",
+social-content,内容创作,未导入,"Create, schedule, and optimize social media content across platforms like LinkedIn, Twitter, Instagram, TikTok, and Facebook, including content creation, repurposing, and engagement strategies.",davila7,,,"Use the social-content skill to create promotional posts for a newly launched AI product on LinkedIn, Twitter, and Instagram.","skill_file_token:FQnwb1xDQoKSu9xweH4lRTUMg0G
+Environmental Startup Social Media Calendar | https://www.anygen.io/task/I2p5pIR4CaH6cng8kTMlH7dKgTg
+Multi-Platform Fashion Brand Content Strategy | https://www.anygen.io/task/QxJNpPoRyaDcwWg2P5rlxapEglg",
+meme-factory,内容创作,未导入,Create customized memes using over 100 popular templates with personalized text and styling for social media or content enhancement.,davila7,,,"Use the meme-factory skill to create a funny meme about ""working overtime vs. leaving work on time"" using the Drake template.","skill_file_token:RKTSbmSzJoodlYx9nSklUDXXgAb
+Gym Newbie Experience Meme Creation | https://www.anygen.io/task/SWDvpnLxzapeJmgySwelqqz4gec | img_token:IEA3bZ681oTmdrxkcRtl2r3kgle",
+canvas-design,内容创作,未导入,"Generate original visual art and designs in PNG and PDF formats for posters, artwork, and other static images based on design principles.",anthropics,,,"Use the canvas-design skill to design a minimalist-style event promotion poster, outputting in both PNG and PDF formats.","skill_file_token:G3IQb9VjLoVA0MxUJ9TlEjojgmc
+Graffiti Style Brand Poster Design | https://www.anygen.io/task/DOdXp5L0faI2E9gP9pZlwLH2gDc | img_token:SwDCbOvI5onI0KxWk5dlyBuogBc
+Modernist Art Exhibition Poster Design | https://www.anygen.io/task/DHIVp7Kjoao3CdgUhLVlnt12gBc | img_token:QkzbbU5tlowJcWxwSG1lL62vg6x",
+brainstorming,内容创作,未导入,"Analyze user intent, requirements, and design to clarify project goals before starting creative development or modifications.",obra,,,"Use the brainstorming skill to conduct a creative discussion around ""how to increase the daily active users of the App"" and gradually refine it into an executable design plan.","skill_file_token:HrcZb2WeRoZUmWxCM4Mlrqu6g8f
+Requirements Analysis for User Retention | https://www.anygen.io/task/QFYfpeOrxaoCrUgBE5clicQDgOV
+Optimizing User Experience for Smart Homes | https://www.anygen.io/task/KAagp4u2JacrxDgd5khlJ2XAgtc",
+logo-creator,内容创作,未导入,"Generate and customize logos using AI, including style adjustments, variations, cropping, background removal, and exporting in SVG format.",resciencelab,,,"Use the logo-creator skill to design a minimalist brand logo for a tech startup, providing multiple color schemes.","skill_file_token:WAIbbaxYEoSz4WxCebWlAQdQgOh
+Abstract Logo Design for Online Education | https://www.anygen.io/task/WtIvphzSZaxJSqg5EeMlRkujgCd | img_token:UBfXbZQ5co9M4FxyaYplGncOgGb
+Retro-Style Restaurant Emblem Design | https://www.anygen.io/task/EOUApWiita19VBgq3apl3Wtcg0e | img_token:IKj1bnsUkohGoexT8lClcrEJgZg",
+editor,内容创作,未导入,"Enhance text by improving clarity, grammar, style, and overall readability through professional editing and proofreading.",shubhamsaboo,,,"Use the editor skill to review and improve the language expression, grammar, and logical structure of an English academic paper.","skill_file_token:IfVvbHRGgouf8xxf4FClnkMMgch
+Academic Paper Proofreading and Enhancement | https://www.anygen.io/task/OQfQpSiZvajFOigq5Psl2yO7gif",
+baoyu-xhs-images,内容创作,未导入,"Create Xiaohongshu (Little Red Book) infographic series with multiple visual styles and layouts, producing 1–10 cartoon-style images optimized for engagement on Chinese social media platforms.",jimliu,,,Use the baoyu-xhs-images skill to turn a skincare article into 8 cartoon-style recommendation cards with images and text.,"skill_file_token:Twr4bir6vonhxVxVSellcOtMgQg
+Travel Guide Cartoon Images for Xiaohongshu | https://www.anygen.io/task/HZrgp4qjeakpObg64bTl7AOJgOg | img_token:BkJab2BJuoWiOzx6yl4lNAAaghe",
+writing-clearly-and-concisely,内容创作,未导入,"Improve clarity and professionalism in prose such as documentation, commit messages, error messages, explanations, reports, and UI text by applying established writing principles.",softaworks,,,"Use the writing-clearly-and-concisely skill to condense and rewrite a lengthy technical document, making it clearer and more impactful.","skill_file_token:UwAmbYmvco8A7qxMLSTlDF5ogOb
+Clear and Concise Writing Revision | https://www.anygen.io/task/I5dYpqY5ea83ClgxHealNQZogod",
+interactive-portfolio,内容创作,未导入,"Design and build portfolios and personal websites that showcase work effectively and engage visitors to generate job or client opportunities across developer, designer, and creative fields.",davila7,,,Use the interactive-portfolio skill to build an interactive online portfolio website for a UI designer that captures visitors' attention within 30 seconds.,"skill_file_token:OLgIbvtjWoDDWyxkmtylrqXdgrc
+Interactive Creative Portfolio Platform | https://www.anygen.io/task/TZ1NpKQ7Ma9ty1galDhlgE9igKb | img_token:ZkZIbymikopEhAx63SEljDikggg",
+email-drafter,内容创作,未导入,"Compose and draft professional business emails and messages for various communication needs, including replies and formal correspondence.",shubhamsaboo,,,Use the email-drafter skill to professionally polish and structurally optimize a business cooperation proposal email.,"skill_file_token:EjNgbZEaJoeowzxAcR6lRIb2gzg
+Polished International Business Proposal Email | https://www.anygen.io/task/FlIzpTscYa4fXtglQThlAhYsgJd",
+meeting-insights-analyzer,内容创作,未导入,"Analyze meeting transcripts and recordings to identify communication patterns, such as conflict avoidance, filler word usage, speaking dominance, and listening opportunities, providing insights for improving communication and leadership skills.",composiohq,,,Use the meeting-insights-analyzer skill to analyze meeting recordings from the past month and identify areas for improvement in personal communication patterns.,"skill_file_token:HtaPbAO2OoZNPhx1p1tlMb0tgjf
+Meeting Communication Pattern Insights Report | https://www.anygen.io/task/UBFUpRthoaEeIEgb8NplbhTngub",
+section-logic-polisher,内容创作,未导入,"Analyze and improve the logical coherence of individual section files by ensuring clear thesis statements and identifying disconnected paragraphs before merging, without altering citations or adding new information.",willoscar,,,Use the section-logic-polisher skill to clarify the arguments of each section of the paper and optimize the logical bridging between paragraphs.,"skill_file_token:VJrubyPQNo8qxIx2uoxltHS7gjb
+Optimized Analysis of Vision Transformer Report | https://www.anygen.io/task/AHjupd5uIaY4WPgm2t7lac7rgyg",
+theme-factory,内容创作,未导入,"Apply predefined or custom themes with colors and fonts to various artifacts such as slides, documents, reports, and HTML pages for consistent styling.",anthropics,,,"Use the theme-factory skill to apply the ""Nordic Minimalist"" theme color scheme and font scheme to a presentation.","skill_file_token:Q9zzb6NksoO8pjxhNTKlrXfdgKh
+Magazine Style Theme for Portfolio | https://www.anygen.io/task/NNnqpkk7HaIdG7gjnNQlUWorgHe | img_token:C8QjbhWD4osxwNxA7hZl97M2g2m",
+draft-polisher,内容创作,未导入,"Refine draft documents by removing boilerplate, improving coherence, and ensuring citations are properly anchored without altering claims or citation keys.",willoscar,,,"Use the draft-polisher skill to de-template, unify terminology, and refine logical coherence of a review paper draft.","skill_file_token:Z0lnbEPkIoM3y6xCe5xldYRvgch
+Polished Draft for Coherent Writing | https://www.anygen.io/task/TYBhpZjjeaeRMEgSUHkluqBCgUh",
