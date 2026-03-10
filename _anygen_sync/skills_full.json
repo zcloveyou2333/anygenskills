@@ -5,7 +5,7 @@
     "description": "通过创建数据透视表、生成图表和对表格数据执行数据分析来分析 Excel (.xlsx) 电子表格。",
     "category": "",
     "icon_url": "Dq9AbU1gGoWvlBxniIUlf0Fvgrb",
-    "usage_count": 562,
+    "usage_count": 572,
     "featured_level": 2,
     "listing_tags": [
       5
@@ -18,6 +18,7 @@
       {
         "title": "Excel Data Cleaning PivotTables and Charts",
         "url": "https://www.anygen.io/task/LtILp5X9FaFzQyggEJulqghcgBC",
+        "exampleprompt": "Utilize excel-analysis skill to clean my data tables, add elegant PivotTables, and perform chart analysis.",
         "img_token": "QJSZb8E0eoWMRFxffmjlQ5iPgyf"
       }
     ],
@@ -29,7 +30,7 @@
     "description": "支持小说、剧本和故事的端到端创意写作，涵盖从构思、世界观构建到起草和修改的全过程，并提供多种类型的指导。",
     "category": "",
     "icon_url": "TAMCbIa09o4cfUxHC3KlnDnNgzd",
-    "usage_count": 402,
+    "usage_count": 411,
     "featured_level": 2,
     "listing_tags": [
       4
@@ -42,11 +43,13 @@
       {
         "title": "Adventure in a Techno-Magic Future City",
         "url": "https://www.anygen.io/task/Qs3apF31pa3LecgW0lElb9GMg6f",
+        "exampleprompt": "Use the Creative-Writing skill to write a 2500-word fantasy adventure short story set in a future city where magic and technology are merged.",
         "img_token": ""
       },
       {
         "title": "International Art Theft Suspense Script",
         "url": "https://www.anygen.io/task/GCYypDrzwadvKdggyNulUj7Qgoe",
+        "exampleprompt": "Use the Creative-Writing skill to create a four-chapter suspense script, each chapter approximately 1,500 words, centered around an international art theft case.",
         "img_token": ""
       }
     ],
@@ -58,7 +61,7 @@
     "description": "通过生成 Excalidraw 元素 JSON 并将其导出为 .excalidraw 文件，创建或编辑手绘风格图表（例如流程图和架构图）。",
     "category": "",
     "icon_url": "",
-    "usage_count": 289,
+    "usage_count": 296,
     "featured_level": 1,
     "listing_tags": [
       1
@@ -71,6 +74,7 @@
       {
         "title": "Generate Excalidraw Flowcharts from Notes",
         "url": "https://www.anygen.io/task/Z5zZpaDGDaaFr9gjdExlO5hbgbd",
+        "exampleprompt": "Use the excalidraw skill to generate hand-drawn style Excalidraw flowcharts and architecture diagrams from my notes.",
         "img_token": "X6wVbW84AoAJ7cxpL6LlxZmBgWO"
       }
     ],
@@ -82,7 +86,7 @@
     "description": "识别并移除 AI 生成文本的常见模式，让文本听起来更自然、更像人类所写。",
     "category": "",
     "icon_url": "",
-    "usage_count": 638,
+    "usage_count": 646,
     "featured_level": 1,
     "listing_tags": [
       4
@@ -95,6 +99,7 @@
       {
         "title": "Humanizing Landing Page Copy",
         "url": "https://www.anygen.io/task/OWWppqI4vaiaqFg6qq2l73UZgyb",
+        "exampleprompt": "Use the humanizer skill to convert my copywriting text into a more natural, human-written version.",
         "img_token": ""
       }
     ],
@@ -106,7 +111,7 @@
     "description": "通过交叉引用网络和官方来源来验证文档中的事实性声明，然后提出更正建议供用户批准，支持技术规格、文档、统计数据和一般信息。",
     "category": "",
     "icon_url": "",
-    "usage_count": 407,
+    "usage_count": 414,
     "featured_level": 1,
     "listing_tags": [
       4
@@ -119,6 +124,7 @@
       {
         "title": "Fact Checking and Correction Report",
         "url": "https://www.anygen.io/task/GZb3pxiexajEpFgJpZcljBY7gAa",
+        "exampleprompt": "Use the fact-checker skill to convert my document under review into a fact-checking and correction report with authoritative source links.",
         "img_token": ""
       }
     ],
@@ -130,7 +136,7 @@
     "description": "生成符合 IEEE/ACM 标准格式的正式学术研究论文，包括结构化内容、引用和学术写作风格。",
     "category": "",
     "icon_url": "",
-    "usage_count": 344,
+    "usage_count": 354,
     "featured_level": 1,
     "listing_tags": [
       3
@@ -143,11 +149,13 @@
       {
         "title": "Blockchain Technology in Financial Security",
         "url": "https://www.anygen.io/task/XHgXpSddLao9VPgxmGVlcLUygah",
+        "exampleprompt": "Use the research-paper-writer skill to write a research paper on the application of blockchain technology in financial security in ACM format, including detailed citations and structured sections.",
         "img_token": ""
       },
       {
         "title": "Advances in Renewable Energy Technology",
         "url": "https://www.anygen.io/task/Bbofp4amEa95NhgoRdrlFes5gAU",
+        "exampleprompt": "Use the research-paper-writer skill to generate an IEEE-standard academic paper on advances in renewable energy technology, including an abstract, introduction, methods, results, and references.",
         "img_token": ""
       }
     ],
@@ -159,7 +167,7 @@
     "description": "在 LinkedIn、Twitter、Instagram、TikTok 和 Facebook 等平台上创建、安排和优化社交媒体内容，包括内容创作、再利用和互动策略。",
     "category": "",
     "icon_url": "",
-    "usage_count": 292,
+    "usage_count": 296,
     "featured_level": 1,
     "listing_tags": [
       4
@@ -172,11 +180,13 @@
       {
         "title": "Environmental Startup Social Media Calendar",
         "url": "https://www.anygen.io/task/I2p5pIR4CaH6cng8kTMlH7dKgTg",
+        "exampleprompt": "Use the social-content skill to design a content calendar for Facebook, TikTok, and Twitter for an environmental startup, and generate corresponding promotional posts.",
         "img_token": ""
       },
       {
         "title": "Multi-Platform Fashion Brand Content Strategy",
         "url": "https://www.anygen.io/task/QxJNpPoRyaDcwWg2P5rlxapEglg",
+        "exampleprompt": "Use the social-content skill to create a multi-platform content strategy and sample posts for a fashion brand on Instagram, LinkedIn, and Facebook based on the latest market trends.",
         "img_token": ""
       }
     ],
@@ -188,7 +198,7 @@
     "description": "通过结合可视化、上下文和结构化叙事，将数据转化为清晰、引人入胜的叙述，适用于报告、演示文稿和利益相关者沟通。",
     "category": "",
     "icon_url": "",
-    "usage_count": 271,
+    "usage_count": 279,
     "featured_level": 1,
     "listing_tags": [
       2
@@ -201,6 +211,7 @@
       {
         "title": "Executive Data Story Report on Customer Growth",
         "url": "https://www.anygen.io/task/MBxgpmH2baOippg548clqTxngES",
+        "exampleprompt": "Use the data-storytelling skill to convert this customer data Excel into an executive-facing data story report.",
         "img_token": ""
       }
     ],
@@ -212,7 +223,7 @@
     "description": "下载 YouTube 视频，支持多种格式（mp4、webm、mkv）和质量级别（最高 1080p），包括仅音频 MP3 下载选项。",
     "category": "",
     "icon_url": "",
-    "usage_count": 249,
+    "usage_count": 256,
     "featured_level": 1,
     "listing_tags": [
       1
@@ -225,11 +236,13 @@
       {
         "title": "Download YouTube Music Video in 720p WEBM",
         "url": "https://www.anygen.io/task/L9XHpcb5faBVRagDuyPlrgfcgrd",
+        "exampleprompt": "Use the youtube-downloader skill to download the 720p WEBM format file of this YouTube music video and save it to the specified folder: https://www.youtube.com/watch?v=6M6samPEMpM.",
         "img_token": ""
       },
       {
         "title": "Batch Download Science Shorts from YouTube",
         "url": "https://www.anygen.io/task/BYRopWaEIaq4XKg8qmnlfl8Vgsg",
+        "exampleprompt": "Use the youtube-downloader skill. Starting from this source: https://www.youtube.com/@ScienceShorts/shorts, search and select at least 5 science/tech Shorts on YouTube; batch download in highest quality MP4; name files with upload date (ISO format) + short title.",
         "img_token": ""
       }
     ],
@@ -241,7 +254,7 @@
     "description": "在 macOS 上协助撰写和格式化学术论文以及专业简历/CV，包括 LaTeX 文档准备、引用管理、Markdown 转 PDF 转换，并支持多种语言和引用样式。",
     "category": "",
     "icon_url": "",
-    "usage_count": 235,
+    "usage_count": 238,
     "featured_level": 1,
     "listing_tags": [
       3
@@ -254,39 +267,11 @@
       {
         "title": "Resume and Thesis Latex Templates",
         "url": "https://www.anygen.io/task/resume-and-thesis-latex-templates-HEPwpInXLa0uWdg6gotltHBzgOz",
+        "exampleprompt": "Utilize the latex-writer skill to provide me with a resume and thesis format template.",
         "img_token": ""
       }
     ],
     "category_infer": "学生专用"
-  },
-  {
-    "id": "7602754089184825055",
-    "name": "book-translation",
-    "description": "将《The Interactive Book of Prompting》的章节和用户界面文本翻译成不同语言。",
-    "category": "",
-    "icon_url": "",
-    "usage_count": 206,
-    "featured_level": 1,
-    "listing_tags": [
-      1
-    ],
-    "is_added": false,
-    "source": "f",
-    "prompt": "使用 book-translation 技能，将《The Interactive Book of Prompting》的章节翻译为中文版本。",
-    "file_token": "OY6ObOcZKozf7CxCrDQl8SQegWe",
-    "examples": [
-      {
-        "title": "Übersetzung des IEEE Spectrum Artikels über Gemini Robotics",
-        "url": "https://www.anygen.io/task/AUe7pvK8MaWbBKgWysdlBAg6gjg",
-        "img_token": ""
-      },
-      {
-        "title": "Guida di viaggio di Barcellona",
-        "url": "https://www.anygen.io/task/SDGYpDU3pai2HQgB9I4lIlKxg38",
-        "img_token": ""
-      }
-    ],
-    "category_infer": "转换工具"
   },
   {
     "id": "7604687325469707998",
@@ -294,7 +279,7 @@
     "description": "从预定义 URL 收集和筛选技术内容，生成 Markdown 格式的每日报告。",
     "category": "",
     "icon_url": "",
-    "usage_count": 203,
+    "usage_count": 210,
     "featured_level": 1,
     "listing_tags": [
       0
@@ -307,15 +292,48 @@
       {
         "title": "Curated Daily Financial News Report",
         "url": "https://www.anygen.io/task/XUXcpRs4laOnzig1oxVlS5FDgVe",
+        "exampleprompt": "Use the daily-news-report skill to collect the latest financial news and compile it into a curated daily report.",
         "img_token": ""
       },
       {
         "title": "Latest Software Development News Digest",
         "url": "https://www.anygen.io/task/ARI0p7HpEatpdfgbVXilkExZgah",
+        "exampleprompt": "Use the daily-news-report skill to extract the latest software development-related articles and produce a tech daily newsletter.",
         "img_token": ""
       }
     ],
     "category_infer": "通用"
+  },
+  {
+    "id": "7602754089184825055",
+    "name": "book-translation",
+    "description": "将《The Interactive Book of Prompting》的章节和用户界面文本翻译成不同语言。",
+    "category": "",
+    "icon_url": "",
+    "usage_count": 210,
+    "featured_level": 1,
+    "listing_tags": [
+      1
+    ],
+    "is_added": false,
+    "source": "f",
+    "prompt": "使用 book-translation 技能，将《The Interactive Book of Prompting》的章节翻译为中文版本。",
+    "file_token": "OY6ObOcZKozf7CxCrDQl8SQegWe",
+    "examples": [
+      {
+        "title": "Übersetzung des IEEE Spectrum Artikels über Gemini Robotics",
+        "url": "https://www.anygen.io/task/AUe7pvK8MaWbBKgWysdlBAg6gjg",
+        "exampleprompt": "Use the book-translation skill. Translate this tech magazine article into German while maintaining accurate and consistent professional terminology: https://spectrum.ieee.org/gemini-robotics.",
+        "img_token": ""
+      },
+      {
+        "title": "Guida di viaggio di Barcellona",
+        "url": "https://www.anygen.io/task/SDGYpDU3pai2HQgB9I4lIlKxg38",
+        "exampleprompt": "Use the book-translation skill. Translate this Spanish travel guide chapter into Italian, ensuring cultural details and place names are correctly preserved: https://es.wikivoyage.org/wiki/Barcelona.",
+        "img_token": ""
+      }
+    ],
+    "category_infer": "转换工具"
   },
   {
     "id": "7603262135539994335",
@@ -323,7 +341,7 @@
     "description": "将OCR手写体、扫描文档和白板照片中的文本、表格和图表数据提取出来，然后输出结构化的JSON/CSV或可编辑文件，如Word（.doc）和Excel（.xlsx），还可选择将Mermaid流程图渲染为SVG/PNG。",
     "category": "",
     "icon_url": "",
-    "usage_count": 197,
+    "usage_count": 201,
     "featured_level": 1,
     "listing_tags": [
       1
@@ -336,6 +354,7 @@
       {
         "title": "Scanned PDF OCR Conversion Outputs",
         "url": "https://www.anygen.io/task/NyZTp0c62aXgkkg9c6alcnl2gTe",
+        "exampleprompt": "Use the ocr-structured-output skill to convert this scanned PDF into structured JSON/CSV and editable Word and Excel output.",
         "img_token": ""
       }
     ],
@@ -347,7 +366,7 @@
     "description": "分析 JavaScript 概念页面，找出可提升搜索可见度、优化精选摘要并增强排名潜力的 SEO 改进点。",
     "category": "",
     "icon_url": "",
-    "usage_count": 195,
+    "usage_count": 200,
     "featured_level": 1,
     "listing_tags": [
       2
@@ -360,6 +379,7 @@
       {
         "title": "SEO Review and Optimization Suggestions",
         "url": "https://www.anygen.io/task/H5uDpffYZa3NzQgH2O4lFPzegAb",
+        "exampleprompt": "Use the seo-review skill to evaluate my online tutorial web content, identify SEO weaknesses, and suggest adjustments to improve search result performance.",
         "img_token": ""
       }
     ],
@@ -371,7 +391,7 @@
     "description": "将文本、链接、音频/视频/YouTube 或本地文件转换为单个信息图表海报，方法是提取/转录关键点并将其组织成简洁的视觉概要，用于图像生成。",
     "category": "",
     "icon_url": "",
-    "usage_count": 167,
+    "usage_count": 174,
     "featured_level": 1,
     "listing_tags": [
       4
@@ -384,11 +404,13 @@
       {
         "title": "Infographic Poster for arXiv Paper 2407.15865",
         "url": "https://www.anygen.io/task/TmZbpFlkOabfpXgXv51loI7Wgru",
+        "exampleprompt": "Use the anything-to-infographic skill. Read and extract key information from this arXiv paper: https://arxiv.org/abs/2407.15865, and convert it into a visually clean infographic poster (including key conclusions, trend highlights, important figures/statements, and organized with a simple framework diagram).",
         "img_token": "P7EabAb3Ro9bkUxwXaTlBTjugIg"
       },
       {
         "title": "AI Development Video Infographic Summary",
         "url": "https://www.anygen.io/task/Xhmep8LfAayyVXgyUMJliDl7gNb",
+        "exampleprompt": "Use the anything-to-infographic skill. Extract key AI development-related content from this YouTube video: https://www.youtube.com/watch?v=DiGB5uAYKAg, and create a content-rich graphic summary poster.",
         "img_token": "NKY8bNiLGoD2pFxvE87lw6UAg9e"
       }
     ],
@@ -400,7 +422,7 @@
     "description": "使用文本转语音、多 voice 对话、音乐集成和音频编辑工具生成 AI 音频内容，例如播客、有声书和配音。",
     "category": "",
     "icon_url": "",
-    "usage_count": 159,
+    "usage_count": 163,
     "featured_level": 1,
     "listing_tags": [
       1
@@ -413,6 +435,7 @@
       {
         "title": "Tech Week Podcast Script and Audio",
         "url": "https://www.anygen.io/task/M7sdpm2Bda6oTpgkNarl8ZcMg4c",
+        "exampleprompt": "Use the ai-podcast-creation skill to convert my material package into a complete podcast audio with two-person dialogue and transitions.",
         "img_token": ""
       }
     ],
@@ -424,7 +447,7 @@
     "description": "使用 100 多种热门模板，通过个性化文字和样式创建定制化 meme，用于社交媒体或内容增强。",
     "category": "",
     "icon_url": "",
-    "usage_count": 140,
+    "usage_count": 143,
     "featured_level": 1,
     "listing_tags": [
       4
@@ -437,6 +460,7 @@
       {
         "title": "Gym Newbie Experience Meme Creation",
         "url": "https://www.anygen.io/task/SWDvpnLxzapeJmgySwelqqz4gec",
+        "exampleprompt": "Use the meme-factory skill to create a customized humorous image depicting \"gym newbie experience,\" featuring contrasting text and cartoon-style elements.",
         "img_token": "IEA3bZ681oTmdrxkcRtl2r3kgle"
       }
     ],
@@ -448,7 +472,7 @@
     "description": "使用 arXiv 的 URL 获取并总结学术论文。",
     "category": "",
     "icon_url": "",
-    "usage_count": 137,
+    "usage_count": 142,
     "featured_level": 1,
     "listing_tags": [
       3
@@ -461,11 +485,13 @@
       {
         "title": "Summary of Recent Quantum Computing Paper",
         "url": "https://www.anygen.io/task/ZkWlpwBXaamwG1gPuogl8tUegad",
+        "exampleprompt": "Use the read-arxiv-paper skill to access a newly published paper on quantum computing on arXiv, extract the abstract, and summarize its main research contributions.",
         "img_token": ""
       },
       {
         "title": "Bioinformatics Review Article Summary",
         "url": "https://www.anygen.io/task/TS46piNxCaJIdPgtEUIlLP0yg0b",
+        "exampleprompt": "Use the read-arxiv-paper skill to download a review article on bioinformatics from arXiv, extract the key viewpoints, and generate a concise summary.",
         "img_token": ""
       }
     ],
@@ -477,7 +503,7 @@
     "description": "制作高质量的 Remotion 视频。学习项目结构、时间线合成、性能优化和导出的实用最佳实践。",
     "category": "",
     "icon_url": "",
-    "usage_count": 134,
+    "usage_count": 138,
     "featured_level": 1,
     "listing_tags": [
       1
@@ -490,6 +516,7 @@
       {
         "title": "2025 Global Gaming Market Trends Video",
         "url": "https://www.anygen.io/task/Gh1mpKve7aGzHwgWK5DltY1pgfc",
+        "exampleprompt": "Use the remotion-best-practices skill to present 2025 global gaming market trends through animated charts, generating a 30-second market analysis video with 1080p resolution export support.",
         "img_token": ""
       }
     ],
@@ -501,7 +528,7 @@
     "description": "创建和编辑电子表格文件（.xlsx/.xlsm/.csv/.tsv），包括数据清洗、公式、格式设置、图表和格式转换。",
     "category": "",
     "icon_url": "",
-    "usage_count": 128,
+    "usage_count": 133,
     "featured_level": 1,
     "listing_tags": [
       1
@@ -514,6 +541,7 @@
       {
         "title": "Sales Data Cleaning and Analysis",
         "url": "https://www.anygen.io/task/GC0mptDUbaHLx8gHiRUlcjcMgFa",
+        "exampleprompt": "Use the xlsx skill to perform data cleaning, add pivot tables, and chart analysis on a spreadsheet containing 5,000 sales records.",
         "img_token": ""
       }
     ],
@@ -525,7 +553,7 @@
     "description": "使用模板和数据生成大量 SEO 优化的网页，包括目录页、位置页、比较页和关键词目标页。",
     "category": "",
     "icon_url": "",
-    "usage_count": 114,
+    "usage_count": 117,
     "featured_level": 1,
     "listing_tags": [
       2
@@ -538,6 +566,7 @@
       {
         "title": "Programmatic SEO for Tokyo Attractions",
         "url": "https://www.anygen.io/task/Qezppfaywav3ZLgFOCSlCqaYgbg",
+        "exampleprompt": "Use the programmatic-seo skill to automatically generate a optimized web pages based on Tokyo tourist attraction data, to improve the website's ranking in international search engines.",
         "img_token": "T0S8be7ZHojCLYxKUYblOiLUgGe"
       }
     ],
@@ -549,7 +578,7 @@
     "description": "分析职位描述以创建定制化简历，突出相关经验、技能和成就，从而提升求职申请的效果。",
     "category": "",
     "icon_url": "",
-    "usage_count": 106,
+    "usage_count": 109,
     "featured_level": 1,
     "listing_tags": [
       3
@@ -562,6 +591,7 @@
       {
         "title": "Optimized Product Manager Resume",
         "url": "https://www.anygen.io/task/TKxBpyj19aCWtlgJrGOl0OCEgcv",
+        "exampleprompt": "Use the tailored-resume-generator skill to optimize a resume based on a Product Manager job description, highlighting matching project experience and core competencies, output in pdf format. Use clear typography.",
         "img_token": ""
       }
     ],
@@ -573,7 +603,7 @@
     "description": "协助进行文献综述、论文分析、研究总结、方法论评估以及学术写作中的引用格式处理。",
     "category": "",
     "icon_url": "",
-    "usage_count": 210,
+    "usage_count": 215,
     "featured_level": 0,
     "listing_tags": [
       3
@@ -586,6 +616,7 @@
       {
         "title": "Interdisciplinary Review of Sustainable Energy Advances",
         "url": "https://www.anygen.io/task/PphypZTIKa9XrjgpUXQliQsOgac",
+        "exampleprompt": "Use the deep-research skill to conduct an interdisciplinary literature review on the latest advances in sustainable energy technology, organize and generate a summary document with standard citation formats.",
         "img_token": ""
       }
     ],
@@ -597,7 +628,7 @@
     "description": "基于设计原则生成原创视觉艺术和设计作品，支持 PNG 和 PDF 格式，适用于海报、艺术作品及其他静态图像。",
     "category": "",
     "icon_url": "",
-    "usage_count": 184,
+    "usage_count": 191,
     "featured_level": 0,
     "listing_tags": [
       4
@@ -610,11 +641,13 @@
       {
         "title": "Graffiti Style Brand Poster Design",
         "url": "https://www.anygen.io/task/DOdXp5L0faI2E9gP9pZlwLH2gDc",
+        "exampleprompt": "Use the canvas-design skill to design a Graffiti-style brand poster, generate PNG and PDF format files.",
         "img_token": "SwDCbOvI5onI0KxWk5dlyBuogBc"
       },
       {
         "title": "Modernist Art Exhibition Poster Design",
         "url": "https://www.anygen.io/task/DHIVp7Kjoao3CdgUhLVlnt12gBc",
+        "exampleprompt": "Utilize your canvas design skills to create a poster for a modernist art exhibition. The output format must include both PNG and PDF files.",
         "img_token": "QkzbbU5tlowJcWxwSG1lL62vg6x"
       }
     ],
@@ -626,7 +659,7 @@
     "description": "全能 PDF 工具集：提取、合并、拆分、旋转、添加水印、创建、填写表单、加密 PDF，以及对扫描版 PDF 执行 OCR 使其可搜索。",
     "category": "",
     "icon_url": "",
-    "usage_count": 183,
+    "usage_count": 191,
     "featured_level": 0,
     "listing_tags": [
       1
@@ -639,6 +672,7 @@
       {
         "title": "Merge Product Manuals with Watermark",
         "url": "https://www.anygen.io/task/VFaKpIT9rawqLygruldlZQLCg5e",
+        "exampleprompt": "Using pdf skills, merge two product manuals into a single PDF document and add the date and company watermark in the lower right corner of each page.",
         "img_token": ""
       }
     ],
@@ -650,7 +684,7 @@
     "description": "创建、读取、编辑和处理 Word (.docx) 文档，包括格式设置、内容提取、图片插入、查找替换、修订、批注，以及生成报告、信函或模板。",
     "category": "",
     "icon_url": "",
-    "usage_count": 172,
+    "usage_count": 178,
     "featured_level": 0,
     "listing_tags": [
       1
@@ -663,6 +697,7 @@
       {
         "title": "Convert Word Document with Tracked Changes",
         "url": "https://www.anygen.io/task/VJcepry4zas1HXgmHwAlb0h4gsg",
+        "exampleprompt": "Use the docx skill to convert my Word document into a final version with tracked changes and an annotation summary.",
         "img_token": ""
       }
     ],
@@ -674,7 +709,7 @@
     "description": "为软件和 AI 功能生成全面的产品需求文档（PRD），包括执行摘要、用户故事、技术规格和风险分析。",
     "category": "",
     "icon_url": "",
-    "usage_count": 149,
+    "usage_count": 160,
     "featured_level": 0,
     "listing_tags": [
       7
@@ -687,6 +722,7 @@
       {
         "title": "Cross Platform E Commerce PRD",
         "url": "https://www.anygen.io/task/CaWBpW6QIa5maMgbuU3luPRogUh",
+        "exampleprompt": "Use the prd skill to create a complete product requirements document for a cross-platform e-commerce platform, including an executive summary, user stories, and risk analysis.",
         "img_token": ""
       }
     ],
@@ -698,7 +734,7 @@
     "description": "生成设计标记（design tokens）、记录组件、执行响应式设计计算，并简化开发者交接流程，以创建和维护一致的 UI 设计系统。",
     "category": "",
     "icon_url": "",
-    "usage_count": 146,
+    "usage_count": 153,
     "featured_level": 0,
     "listing_tags": [
       7
@@ -711,6 +747,7 @@
       {
         "title": "Productivity App Interface Design Proposal",
         "url": "https://www.anygen.io/task/TRA2pP6AEadjOfgWL0dlqXpqgmh",
+        "exampleprompt": "Utilize ui-design-system skills to design the interface for my productivity management application, incorporating shadow effects, animation duration, and font weight. Deliver the design proposal and provide a page preview.",
         "img_token": "BYKwbhayToIUv4x4ZbClFxt3gVh"
       }
     ],
@@ -722,7 +759,7 @@
     "description": "为网页和移动项目提供跨各种风格、调色板、字体和组件的 UI/UX 设计支持，包括使用流行框架和设计原则进行界面规划、构建、审查和优化。",
     "category": "",
     "icon_url": "",
-    "usage_count": 142,
+    "usage_count": 148,
     "featured_level": 0,
     "listing_tags": [
       7
@@ -735,6 +772,7 @@
       {
         "title": "UI UX Pro Max Design for Education Platform",
         "url": "https://www.anygen.io/task/UvdrpS3vOaj4nWgMWRolXM6cgNh",
+        "exampleprompt": "Employ ui-ux-pro-max skill to design pages for an online education platform, selecting optimal theme colors, font combinations, and interface interaction animations.",
         "img_token": "XnHQbhE6Do7ISWxxtYCl1ZDxgDb"
       }
     ],
@@ -746,7 +784,7 @@
     "description": "使用 Mermaid 语法创建和可视化各种软件图表，包括类图、序列图、流程图、ER 图、C4 架构图、状态图、git 图、饼图和甘特图，用于建模系统架构、工作流和数据关系。",
     "category": "",
     "icon_url": "",
-    "usage_count": 130,
+    "usage_count": 133,
     "featured_level": 0,
     "listing_tags": [
       1
@@ -759,6 +797,7 @@
       {
         "title": "Mermaid Diagrams for Microservices Architecture",
         "url": "https://www.anygen.io/task/KsSIp0vV9aasnQgJsfkllNOFgHc",
+        "exampleprompt": "Use the mermaid-diagrams skill to convert my provided requirements specification into a set of Mermaid architecture and flow diagrams.",
         "img_token": "JR9YbbMWNoLlFJxgcdnlobb2gkg"
       }
     ],
@@ -770,7 +809,7 @@
     "description": "在开始创意开发或修改前，分析用户意图、需求和设计，以明确项目目标。",
     "category": "",
     "icon_url": "",
-    "usage_count": 128,
+    "usage_count": 131,
     "featured_level": 0,
     "listing_tags": [
       4
@@ -783,11 +822,13 @@
       {
         "title": "Requirements Analysis for User Retention",
         "url": "https://www.anygen.io/task/QFYfpeOrxaoCrUgBE5clicQDgOV",
+        "exampleprompt": "Use the brainstorming skill to conduct a requirements analysis for \"improving user retention on an online education platform,\" breaking it down layer by layer into specific product design goals.",
         "img_token": ""
       },
       {
         "title": "Optimizing User Experience for Smart Homes",
         "url": "https://www.anygen.io/task/KAagp4u2JacrxDgd5khlJ2XAgtc",
+        "exampleprompt": "Use the brainstorming skill to explore creative ideas around \"optimizing the user experience of smart home devices,\" refining and clarifying the project design direction.",
         "img_token": ""
       }
     ],
@@ -799,7 +840,7 @@
     "description": "使用 Porter's Five Forces、PESTLE、SWOT 和 BCG Matrix 等框架，生成具有专业 LaTeX 格式、数据驱动可视化和战略分析的详细市场研究报告。",
     "category": "",
     "icon_url": "",
-    "usage_count": 122,
+    "usage_count": 125,
     "featured_level": 0,
     "listing_tags": [
       2
@@ -812,6 +853,7 @@
       {
         "title": "European Smart Home Market Research Report",
         "url": "https://www.anygen.io/task/KLGLpTeQaauzFHg5vz6le1zIgLl",
+        "exampleprompt": "Use the market-research-reports skill to generate a European smart home market research report including PESTLE and BCG matrix analysis, with a minimum length of 40 pages and professional LaTeX formatting.",
         "img_token": "X4U4bZQxuoomgsxyXaUlReP2gbf"
       }
     ],
@@ -823,7 +865,7 @@
     "description": "使用 AI 生成和自定义徽标，包括样式调整、变体、裁剪、背景去除以及以 SVG 格式导出。",
     "category": "",
     "icon_url": "",
-    "usage_count": 116,
+    "usage_count": 123,
     "featured_level": 0,
     "listing_tags": [
       4
@@ -836,11 +878,13 @@
       {
         "title": "Abstract Logo Design for Online Education",
         "url": "https://www.anygen.io/task/WtIvphzSZaxJSqg5EeMlRkujgCd",
+        "exampleprompt": "Use the logo-creator skill to design an abstract-style logo suitable for an online education platform, adjust style details, remove the background, and output multiple color versions.",
         "img_token": "UBfXbZQ5co9M4FxyaYplGncOgGb"
       },
       {
         "title": "Retro-Style Restaurant Emblem Design",
         "url": "https://www.anygen.io/task/EOUApWiita19VBgq3apl3Wtcg0e",
+        "exampleprompt": "Use the logo-creator skill to create a retro-style emblem for a restaurant chain brand, crop it to a square, generate multiple font variants, and export as SVG files.",
         "img_token": "IKj1bnsUkohGoexT8lClcrEJgZg"
       }
     ],
@@ -852,7 +896,7 @@
     "description": "设计和开发 MCP 服务器，使大型语言模型能够连接外部 API 或服务，支持使用 Python 或 Node/TypeScript 进行实现。",
     "category": "",
     "icon_url": "",
-    "usage_count": 112,
+    "usage_count": 115,
     "featured_level": 0,
     "listing_tags": [
       6
@@ -865,11 +909,13 @@
       {
         "title": "Develop MCP Server for Weather API",
         "url": "https://www.anygen.io/task/YiZQpzG2jat0ZHg0YsBlDgB3gS9",
+        "exampleprompt": "Use the mcp-builder skill to develop an MCP server that enables large language models to access a weather data API and return current meteorological information.",
         "img_token": ""
       },
       {
         "title": "MCP Server for Real-Time Stock Data",
         "url": "https://www.anygen.io/task/FucmpBLKBaXV41gVs7DlN5Gsghd",
+        "exampleprompt": "Use the mcp-builder skill to set up an MCP server that enables large language models to call financial market data services via Python for real-time stock quote queries.",
         "img_token": ""
       }
     ],
@@ -881,7 +927,7 @@
     "description": "将文件和内容转换为清晰的 Markdown。支持 PDF、Office 文档、图像（OCR）、音频（转录）、网页、数据文件等。",
     "category": "",
     "icon_url": "",
-    "usage_count": 109,
+    "usage_count": 114,
     "featured_level": 0,
     "listing_tags": [
       1
@@ -894,6 +940,7 @@
       {
         "title": "Comprehensive Material Archive to Markdown",
         "url": "https://www.anygen.io/task/MLohpZjisaW3D0gNinElLcBYgqc",
+        "exampleprompt": "Use the markitdown skill to convert my comprehensive material archive into well-structured Markdown text.",
         "img_token": ""
       }
     ],
@@ -905,7 +952,7 @@
     "description": "通过提升分辨率、锐度和清晰度，改善图像质量，尤其是截图的质量。",
     "category": "",
     "icon_url": "",
-    "usage_count": 108,
+    "usage_count": 114,
     "featured_level": 0,
     "listing_tags": [
       1
@@ -918,6 +965,7 @@
       {
         "title": "Product Screenshot Resolution Enhancement",
         "url": "https://www.anygen.io/task/L97BpdO3La1gurgnIWqlVDazgRe",
+        "exampleprompt": "Use the image-enhancer skill to upscale the resolution of these low-res product screenshots for use on an e-commerce website. Provide each image individually.",
         "img_token": ""
       }
     ],
@@ -929,7 +977,7 @@
     "description": "通过专业编辑和校对，从清晰度、语法、风格及整体可读性方面优化文本。",
     "category": "",
     "icon_url": "",
-    "usage_count": 105,
+    "usage_count": 109,
     "featured_level": 0,
     "listing_tags": [
       4
@@ -942,6 +990,7 @@
       {
         "title": "Academic Paper Proofreading and Enhancement",
         "url": "https://www.anygen.io/task/OQfQpSiZvajFOigq5Psl2yO7gif",
+        "exampleprompt": "Use the editor skill to proofread this academic paper, improving language expression, grammatical accuracy, and paragraph coherence.",
         "img_token": ""
       }
     ],
@@ -953,7 +1002,7 @@
     "description": "通过对照官方标准评估 SKILL.md 文件和技能包，评估智能体技能设计的质量，并提供详细评分和改进建议。",
     "category": "",
     "icon_url": "",
-    "usage_count": 100,
+    "usage_count": 104,
     "featured_level": 0,
     "listing_tags": [
       0
@@ -966,6 +1015,7 @@
       {
         "title": "Skill Package Review and Improvement Suggestions",
         "url": "https://www.anygen.io/task/PlVXpmFPRai5oog1midl7UobgAb",
+        "exampleprompt": "Use the skill-judge skill to convert my provided skill package under evaluation into a skill review report with improvement suggestions.",
         "img_token": ""
       }
     ],
@@ -977,7 +1027,7 @@
     "description": "通过生成 OKR 层级、进行市场分析、设定愿景以及规划团队扩张，以支持战略性产品领导，实现目标对齐和组织增长。",
     "category": "",
     "icon_url": "",
-    "usage_count": 100,
+    "usage_count": 104,
     "featured_level": 0,
     "listing_tags": [
       7
@@ -990,34 +1040,11 @@
       {
         "title": "Framework from Annual Vision to Quarterly Goals",
         "url": "https://www.anygen.io/task/SoSkpuIDlabVVKgavD5ls9JWgmg",
+        "exampleprompt": "Use the product-strategist skill to generate a breakdown framework from annual corporate vision to quarterly departmental goals.",
         "img_token": ""
       }
     ],
     "category_infer": "产品设计"
-  },
-  {
-    "id": "7606233036224466654",
-    "name": "writing-plans",
-    "description": "分析和整理多步骤任务规范或需求，为开发或实施做准备。",
-    "category": "",
-    "icon_url": "",
-    "usage_count": 99,
-    "featured_level": 0,
-    "listing_tags": [
-      6
-    ],
-    "is_added": false,
-    "source": "obra",
-    "prompt": "使用 writing-plans 技能，为一个多步骤功能需求编写详细的工程实施计划文档。",
-    "file_token": "CAV0bi9yooLSmlxnkEUlwPMKgkh",
-    "examples": [
-      {
-        "title": "Executable Implementation Plan from Requirements",
-        "url": "https://www.anygen.io/task/PSYtpi8GhanzhPgrq8Ll1fODg5f",
-        "img_token": ""
-      }
-    ],
-    "category_infer": "开发者"
   },
   {
     "id": "7600016468566249182",
@@ -1025,7 +1052,7 @@
     "description": "生成各种科学和出版物级别的图表，如折线图、散点图、柱状图、直方图、热图和 3D 图表，支持子图以及导出为 PNG、PDF 或 SVG 格式。",
     "category": "",
     "icon_url": "",
-    "usage_count": 99,
+    "usage_count": 104,
     "featured_level": 0,
     "listing_tags": [
       5
@@ -1038,10 +1065,36 @@
       {
         "title": "Shanghai Weather Data Visualization Charts",
         "url": "https://www.anygen.io/task/ZFuHp8cMGaBhpsgzrHOlMXQlgrf",
+        "exampleprompt": "Use the matplotlib skill to convert my multi-dimensional data CSV into a set of high-quality visualization charts.",
         "img_token": "GssSb951QoBFa9xW5bNllSavgGh"
       }
     ],
     "category_infer": "数据分析"
+  },
+  {
+    "id": "7606233036224466654",
+    "name": "writing-plans",
+    "description": "分析和整理多步骤任务规范或需求，为开发或实施做准备。",
+    "category": "",
+    "icon_url": "",
+    "usage_count": 103,
+    "featured_level": 0,
+    "listing_tags": [
+      6
+    ],
+    "is_added": false,
+    "source": "obra",
+    "prompt": "使用 writing-plans 技能，为一个多步骤功能需求编写详细的工程实施计划文档。",
+    "file_token": "CAV0bi9yooLSmlxnkEUlwPMKgkh",
+    "examples": [
+      {
+        "title": "Executable Implementation Plan from Requirements",
+        "url": "https://www.anygen.io/task/PSYtpi8GhanzhPgrq8Ll1fODg5f",
+        "exampleprompt": "Use the writing-plans skill to convert my feature requirements document into an executable implementation plan document.",
+        "img_token": ""
+      }
+    ],
+    "category_infer": "开发者"
   },
   {
     "id": "7606232843483664097",
@@ -1049,7 +1102,7 @@
     "description": "创建小红书信息图表系列，包含多种视觉风格和布局，生成 1–10 张卡通风格图片，专为提高在中国社交媒体平台上的互动度而优化。",
     "category": "",
     "icon_url": "",
-    "usage_count": 97,
+    "usage_count": 101,
     "featured_level": 0,
     "listing_tags": [
       4
@@ -1062,6 +1115,7 @@
       {
         "title": "Travel Guide Cartoon Images for Xiaohongshu",
         "url": "https://www.anygen.io/task/HZrgp4qjeakpObg64bTl7AOJgOg",
+        "exampleprompt": "",
         "img_token": "BkJab2BJuoWiOzx6yl4lNAAaghe"
       }
     ],
@@ -1073,7 +1127,7 @@
     "description": "通过应用既定的写作原则，提高文档、提交信息、错误信息、解释说明、报告和 UI 文本等 prose 的清晰度和专业性。",
     "category": "",
     "icon_url": "",
-    "usage_count": 91,
+    "usage_count": 95,
     "featured_level": 0,
     "listing_tags": [
       4
@@ -1086,58 +1140,11 @@
       {
         "title": "Clear and Concise Writing Revision",
         "url": "https://www.anygen.io/task/I5dYpqY5ea83ClgxHealNQZogod",
+        "exampleprompt": "Use the writing-clearly-and-concisely skill to rewrite my draft into a clear, concise final copy.",
         "img_token": ""
       }
     ],
     "category_infer": "内容创作"
-  },
-  {
-    "id": "7606019356757069531",
-    "name": "ffmpeg",
-    "description": "使用 FFmpeg 处理和转换音视频文件，可完成格式转换、调整大小、压缩和音频提取等任务。",
-    "category": "",
-    "icon_url": "",
-    "usage_count": 91,
-    "featured_level": 0,
-    "listing_tags": [
-      1
-    ],
-    "is_added": false,
-    "source": "digitalsamba",
-    "prompt": "使用 ffmpeg 技能，将一个4K视频压缩为720p，提取音频轨道，并转换为MP4格式。",
-    "file_token": "Gt9wbHzEboNDzcxZ0oylRIfpgFs",
-    "examples": [
-      {
-        "title": "FFmpeg Video Clipping and Audio Export",
-        "url": "https://www.anygen.io/task/Ti9bpTjbJaBVyEgoD2ClShGNghb",
-        "img_token": ""
-      }
-    ],
-    "category_infer": "转换工具"
-  },
-  {
-    "id": "7603656513416285916",
-    "name": "seaborn",
-    "description": "生成各种统计可视化图表，如散点图、箱线图、小提琴图、热力图、配对图、回归图、相关矩阵、KDE 和分面图，用于数据探索和展示。",
-    "category": "",
-    "icon_url": "",
-    "usage_count": 91,
-    "featured_level": 0,
-    "listing_tags": [
-      5
-    ],
-    "is_added": true,
-    "source": "davila7",
-    "prompt": "使用 seaborn 技能，对用户行为数据创建箱线图、小提琴图和相关性热力图。",
-    "file_token": "MNrqbpvqtodOM3x1rh9lzAXTgee",
-    "examples": [
-      {
-        "title": "Statistical Visualization from CSV Zip",
-        "url": "https://www.anygen.io/task/G0rPpoGC1ag3dSg2J4Blp0Z9g9D",
-        "img_token": "JcBvbsqwQoUDCpxDwqJly5edgYd"
-      }
-    ],
-    "category_infer": "数据分析"
   },
   {
     "id": "7606019356811595485",
@@ -1145,7 +1152,7 @@
     "description": "为各种网页（如首页、落地页、定价页、功能页、关于页和产品页）生成、重写或优化营销文案。",
     "category": "",
     "icon_url": "",
-    "usage_count": 90,
+    "usage_count": 94,
     "featured_level": 0,
     "listing_tags": [
       2
@@ -1158,15 +1165,67 @@
       {
         "title": "Compelling Homepage Copy for Online Education",
         "url": "https://www.anygen.io/task/RRsapu0WRaDbDCgSxWslXRirgzg",
+        "exampleprompt": "Use the copywriting skill to write compelling homepage marketing copy for an online education platform that highlights core advantages and user benefits.",
         "img_token": ""
       },
       {
         "title": "Persuasive Cloud Storage Pricing Copy",
         "url": "https://www.anygen.io/task/Myk7pn5UMaTskvgKpABlEju7gQe",
+        "exampleprompt": "Use the copywriting skill to rewrite the pricing page copy for a cloud storage service, making it more persuasive and promoting subscription conversions, with concise and clear language.",
         "img_token": ""
       }
     ],
     "category_infer": "市场营销"
+  },
+  {
+    "id": "7606019356757069531",
+    "name": "ffmpeg",
+    "description": "使用 FFmpeg 处理和转换音视频文件，可完成格式转换、调整大小、压缩和音频提取等任务。",
+    "category": "",
+    "icon_url": "",
+    "usage_count": 94,
+    "featured_level": 0,
+    "listing_tags": [
+      1
+    ],
+    "is_added": false,
+    "source": "digitalsamba",
+    "prompt": "使用 ffmpeg 技能，将一个4K视频压缩为720p，提取音频轨道，并转换为MP4格式。",
+    "file_token": "Gt9wbHzEboNDzcxZ0oylRIfpgFs",
+    "examples": [
+      {
+        "title": "FFmpeg Video Clipping and Audio Export",
+        "url": "https://www.anygen.io/task/Ti9bpTjbJaBVyEgoD2ClShGNghb",
+        "exampleprompt": "Use the ffmpeg skill to clip the highlight segment from this video https://www.youtube.com/watch?v=-dJu9VyIw64, and export the audio track separately as an MP3 file.",
+        "img_token": ""
+      }
+    ],
+    "category_infer": "转换工具"
+  },
+  {
+    "id": "7603656513416285916",
+    "name": "seaborn",
+    "description": "生成各种统计可视化图表，如散点图、箱线图、小提琴图、热力图、配对图、回归图、相关矩阵、KDE 和分面图，用于数据探索和展示。",
+    "category": "",
+    "icon_url": "",
+    "usage_count": 94,
+    "featured_level": 0,
+    "listing_tags": [
+      5
+    ],
+    "is_added": true,
+    "source": "davila7",
+    "prompt": "使用 seaborn 技能，对用户行为数据创建箱线图、小提琴图和相关性热力图。",
+    "file_token": "MNrqbpvqtodOM3x1rh9lzAXTgee",
+    "examples": [
+      {
+        "title": "Statistical Visualization from CSV Zip",
+        "url": "https://www.anygen.io/task/G0rPpoGC1ag3dSg2J4Blp0Z9g9D",
+        "exampleprompt": "Use the seaborn skill to convert CSV data from a zip into a set of statistical visualization charts.",
+        "img_token": "JcBvbsqwQoUDCpxDwqJly5edgYd"
+      }
+    ],
+    "category_infer": "数据分析"
   },
   {
     "id": "7606232843198516962",
@@ -1174,7 +1233,7 @@
     "description": "通过进行研究、添加引用、优化开头、制定大纲以及提供实时反馈来提升你的写作，从而提高内容质量。",
     "category": "",
     "icon_url": "",
-    "usage_count": 84,
+    "usage_count": 88,
     "featured_level": 0,
     "listing_tags": [
       3
@@ -1187,6 +1246,7 @@
       {
         "title": "Sustainable Development in Global Economy",
         "url": "https://www.anygen.io/task/XZDnppVn0aqZbKgusBLl79XQgTg",
+        "exampleprompt": "Use the content-research-writer skill to write a detailed research report on the topic of \"The Role of Sustainable Development in the Global Economy\" with authoritative source citations.",
         "img_token": ""
       }
     ],
@@ -1198,7 +1258,7 @@
     "description": "生成内容策略和主题创意，以指导博客文章、文章或其他书面材料的规划与撰写。",
     "category": "",
     "icon_url": "",
-    "usage_count": 84,
+    "usage_count": 88,
     "featured_level": 0,
     "listing_tags": [
       2
@@ -1211,11 +1271,13 @@
       {
         "title": "Two Month Environmental Tech Content Strategy",
         "url": "https://www.anygen.io/task/IFr6pljEfaGpr2gmgR9lb0Vngyc",
+        "exampleprompt": "Use the content-strategy skill to design a two-month content strategy and article publishing schedule for an environmental technology company's website.",
         "img_token": ""
       },
       {
         "title": "Five Week Blog Plan for Healthy Living",
         "url": "https://www.anygen.io/task/Ymtup2AgIaLC7ggOXi5l2MCagSd",
+        "exampleprompt": "Use the content-strategy skill to develop a blog topic and posting frequency plan for the next five weeks based on market trends in the healthy living space.",
         "img_token": ""
       }
     ],
@@ -1227,7 +1289,7 @@
     "description": "提供有关定价策略、包装选项和变现模式的指导，包括对定价层级、价值指标和客户支付意愿的研究。",
     "category": "",
     "icon_url": "",
-    "usage_count": 79,
+    "usage_count": 83,
     "featured_level": 0,
     "listing_tags": [
       2
@@ -1240,39 +1302,17 @@
       {
         "title": "Cloud Storage Subscription Tier Design",
         "url": "https://www.anygen.io/task/LDI3p6eW3asOoxgpTLyl0mJAgOh",
+        "exampleprompt": "Use the pricing-strategy skill to design three subscription tiers (starter, standard, and premium) for a cloud storage service, analyzing value metrics at each tier to optimize customer conversion rates.",
         "img_token": ""
       },
       {
         "title": "Health App Pricing Tier Strategy",
         "url": "https://www.anygen.io/task/XRvrpnux9aZMWNgbjpclnmRZgwg",
+        "exampleprompt": "Use the pricing-strategy skill to plan three pricing tiers—trial, monthly subscription, and annual subscription—for a health management application, adjusting pricing levels based on market research.",
         "img_token": ""
       }
     ],
     "category_infer": "市场营销"
-  },
-  {
-    "id": "7606232843223568094",
-    "name": "peer-review",
-    "description": "评估手稿和资助提案，包括对不同学科的方法论、统计学、研究设计、可重复性、伦理学、图表准确性和报告标准进行评估。",
-    "category": "",
-    "icon_url": "",
-    "usage_count": 76,
-    "featured_level": 0,
-    "listing_tags": [
-      3
-    ],
-    "is_added": false,
-    "source": "davila7",
-    "prompt": "使用 peer-review 技能，对一篇提交到期刊的生物信息学论文进行系统的方法论和统计分析审查。",
-    "file_token": "H03ybse4To6Pu0xp4owlI9iFgST",
-    "examples": [
-      {
-        "title": "Evaluation of Environmental Science Grant Design",
-        "url": "https://www.anygen.io/task/U6K7p679CaI59lgKy7qldtIGgIh",
-        "img_token": ""
-      }
-    ],
-    "category_infer": "学生专用"
   },
   {
     "id": "7606019357126184671",
@@ -1280,7 +1320,7 @@
     "description": "提供用于数据驱动的人物角色创建、旅程映射、可用性测试和研究综合的工具，以支持用户研究和设计验证。",
     "category": "",
     "icon_url": "",
-    "usage_count": 75,
+    "usage_count": 80,
     "featured_level": 0,
     "listing_tags": [
       7
@@ -1293,6 +1333,7 @@
       {
         "title": "User Personas and Design Insights",
         "url": "https://www.anygen.io/task/SNyFpcTfWa4Hj0gTyKfldyr3glf",
+        "exampleprompt": "Use the ux-researcher-designer skill to convert my user research data into user personas and design insights.",
         "img_token": ""
       }
     ],
@@ -1304,7 +1345,7 @@
     "description": "分析 UI 代码，评估其是否符合 Web 界面指南、无障碍标准和设计最佳实践。",
     "category": "",
     "icon_url": "",
-    "usage_count": 74,
+    "usage_count": 79,
     "featured_level": 0,
     "listing_tags": [
       6
@@ -1317,35 +1358,32 @@
       {
         "title": "Corporate Portal UX and Accessibility Review",
         "url": "https://www.anygen.io/task/XJYQpQgClaljmegmQgxln9tzgNc",
+        "exampleprompt": "Use the web-design-guidelines skill to inspect the HTML and CSS code of a corporate portal webpage, verifying whether it complies with the latest user experience design specifications and accessibility regulations.",
         "img_token": ""
       }
     ],
     "category_infer": "开发者"
   },
   {
-    "id": "7606232843307503325",
-    "name": "scientific-critical-thinking",
-    "description": "通过使用 GRADE 和 Cochrane ROB 等标准，评估研究方法、实验设计、统计有效性、偏倚、混杂因素和证据质量，从而评估研究的严谨性。",
+    "id": "7606232843223568094",
+    "name": "peer-review",
+    "description": "评估手稿和资助提案，包括对不同学科的方法论、统计学、研究设计、可重复性、伦理学、图表准确性和报告标准进行评估。",
     "category": "",
     "icon_url": "",
-    "usage_count": 74,
+    "usage_count": 79,
     "featured_level": 0,
     "listing_tags": [
       3
     ],
     "is_added": false,
     "source": "davila7",
-    "prompt": "使用 scientific-critical-thinking 技能，评估一项关于某药物临床试验的研究设计严谨性和统计有效性。",
-    "file_token": "TPl7bh9R0owqupx9dNPlMm0jgyd",
+    "prompt": "使用 peer-review 技能，对一篇提交到期刊的生物信息学论文进行系统的方法论和统计分析审查。",
+    "file_token": "H03ybse4To6Pu0xp4owlI9iFgST",
     "examples": [
       {
-        "title": "Evaluating Methods and Evidence in Chronic Disease RCT",
-        "url": "https://www.anygen.io/task/S2tJppercad4xagpBBrlOWLpgk7",
-        "img_token": ""
-      },
-      {
-        "title": "Critical Review of Psychological Intervention Study",
-        "url": "https://www.anygen.io/task/RaohpNGwnarflrgwxGBl83K7gSj",
+        "title": "Evaluation of Environmental Science Grant Design",
+        "url": "https://www.anygen.io/task/U6K7p679CaI59lgKy7qldtIGgIh",
+        "exampleprompt": "Use the peer-review skill to conduct a comprehensive evaluation of the research design and data analysis methods in a multidisciplinary environmental science research grant application, ensuring compliance with international ethical and reporting standards.",
         "img_token": ""
       }
     ],
@@ -1357,7 +1395,7 @@
     "description": "访问并应用70多种心理学原理和思维模型，以增强营销策略，聚焦消费者行为、决策制定和说服技巧。",
     "category": "",
     "icon_url": "",
-    "usage_count": 73,
+    "usage_count": 79,
     "featured_level": 0,
     "listing_tags": [
       2
@@ -1370,6 +1408,7 @@
       {
         "title": "Psychological Triggers for Email Clicks",
         "url": "https://www.anygen.io/task/LxwYprbBOaj1q3gZ0bNlEKsigAe",
+        "exampleprompt": "Use the marketing-psychology skill to evaluate psychological triggers that can be leveraged in email advertising copy to enhance user click-through rates.",
         "img_token": ""
       }
     ],
@@ -1381,7 +1420,7 @@
     "description": "分析你的业务，以识别高质量销售线索，并为销售、业务开发和市场营销目的生成可操作的联系策略。",
     "category": "",
     "icon_url": "",
-    "usage_count": 72,
+    "usage_count": 78,
     "featured_level": 0,
     "listing_tags": [
       2
@@ -1394,6 +1433,7 @@
       {
         "title": "New Energy Battery Market Sales Targets",
         "url": "https://www.anygen.io/task/GYaapNRCua7ZzCgn7V4lw9yYgJe",
+        "exampleprompt": "Use the lead-research-assistant skill to analyze new energy battery market data, generate 40 high-quality sales targets with customized outreach plans.",
         "img_token": ""
       }
     ],
@@ -1405,7 +1445,7 @@
     "description": "生成详细报告，总结视频文件的内容和关键信息。",
     "category": "",
     "icon_url": "",
-    "usage_count": 71,
+    "usage_count": 77,
     "featured_level": 0,
     "listing_tags": [
       1
@@ -1418,15 +1458,48 @@
       {
         "title": "Documentary Video Analysis Report",
         "url": "https://www.anygen.io/task/DwcupIUyjaehkfgufn8lvY99gMe",
+        "exampleprompt": "Use the video-report skill. Retrieve and analyze this documentary video: https://www.youtube.com/watch?v=9vz06QO3UkQ. Output a comprehensive report containing at least: (1) main plot/structure summary; (2) key facts/data points mentioned; (3) important quotes (with timestamps).",
         "img_token": ""
       },
       {
         "title": "Conference Recording Analysis and Report",
         "url": "https://www.anygen.io/task/RqCbpF7LwaTvJvgFewolSCEogXe",
+        "exampleprompt": "Use the video-report skill. Retrieve and analyze this conference recording: https://www.youtube.com/watch?v=WBXJEJCsULw. Output a complete report: topics/agenda, decisions made, action items (responsible persons + deadlines, if mentioned in the video), unresolved issues, and provide timestamps for each item.",
         "img_token": ""
       }
     ],
     "category_infer": "转换工具"
+  },
+  {
+    "id": "7606232843307503325",
+    "name": "scientific-critical-thinking",
+    "description": "通过使用 GRADE 和 Cochrane ROB 等标准，评估研究方法、实验设计、统计有效性、偏倚、混杂因素和证据质量，从而评估研究的严谨性。",
+    "category": "",
+    "icon_url": "",
+    "usage_count": 75,
+    "featured_level": 0,
+    "listing_tags": [
+      3
+    ],
+    "is_added": false,
+    "source": "davila7",
+    "prompt": "使用 scientific-critical-thinking 技能，评估一项关于某药物临床试验的研究设计严谨性和统计有效性。",
+    "file_token": "TPl7bh9R0owqupx9dNPlMm0jgyd",
+    "examples": [
+      {
+        "title": "Evaluating Methods and Evidence in Chronic Disease RCT",
+        "url": "https://www.anygen.io/task/S2tJppercad4xagpBBrlOWLpgk7",
+        "exampleprompt": "Use the scientific-critical-thinking skill to evaluate the research methods and evidence quality of a multi-center randomized controlled trial involving chronic disease treatment.",
+        "img_token": ""
+      },
+      {
+        "title": "Critical Review of Psychological Intervention Study",
+        "url": "https://www.anygen.io/task/RaohpNGwnarflrgwxGBl83K7gSj",
+        "exampleprompt": "Use the scientific-critical-thinking skill to review a systematic evaluation of psychological intervention effects, focusing on the rigor of experimental design and the validity of statistical analysis.",
+        "img_token": ""
+      }
+    ],
+    "category_infer": "学生专用"
   },
   {
     "id": "7606232843332636380",
@@ -1434,7 +1507,7 @@
     "description": "设计和构建作品集及个人网站，有效展示作品并吸引访客，为开发者、设计师和创意领域的人士创造工作或客户机会。",
     "category": "",
     "icon_url": "",
-    "usage_count": 70,
+    "usage_count": 74,
     "featured_level": 0,
     "listing_tags": [
       4
@@ -1447,6 +1520,7 @@
       {
         "title": "Interactive Creative Portfolio Platform",
         "url": "https://www.anygen.io/task/TZ1NpKQ7Ma9ty1galDhlgE9igKb",
+        "exampleprompt": "Use the interactive-portfolio skill to build a clean and intuitive creative portfolio platform, optimizing page load speed to improve visitor retention.",
         "img_token": "ZkZIbymikopEhAx63SEljDikggg"
       }
     ],
@@ -1458,7 +1532,7 @@
     "description": "分析超过 200 种格式的科学数据文件，以评估其结构、内容和质量，生成详细的 markdown 报告，包含特定格式的见解和跨化学、生物信息学、显微镜等领域的分析建议。",
     "category": "",
     "icon_url": "",
-    "usage_count": 70,
+    "usage_count": 74,
     "featured_level": 0,
     "listing_tags": [
       5
@@ -1471,6 +1545,7 @@
       {
         "title": "Proteomics Experimental Results EDA Report",
         "url": "https://www.anygen.io/task/Wq0upFnSxa0cvUgNz9flHlizgac",
+        "exampleprompt": "Use the exploratory-data-analysis skill to convert my experimental results CSV into a detailed EDA analysis report.",
         "img_token": ""
       }
     ],
@@ -1482,7 +1557,7 @@
     "description": "为初创公司生成财务预测和模型，包括收入预测、烧钱率计算、现金流建模和多年度财务规划。",
     "category": "",
     "icon_url": "",
-    "usage_count": 65,
+    "usage_count": 69,
     "featured_level": 0,
     "listing_tags": [
       2
@@ -1495,6 +1570,7 @@
       {
         "title": "Two Year Hardware Startup Financial Model",
         "url": "https://www.anygen.io/task/KApApHbinagzDXgHIEel1X0OgUg",
+        "exampleprompt": "Use the startup-financial-modeling skill to generate a two-year dynamic financial model of cash flow and burn rate for a hardware startup based on quarterly data.",
         "img_token": ""
       }
     ],
@@ -1506,7 +1582,7 @@
     "description": "协助规划、创建和优化跨平台付费广告活动，如 Google Ads、Meta、LinkedIn 和 Twitter，包括广告文案、受众定位以及 ROAS 和 CPA 等效果指标。",
     "category": "",
     "icon_url": "",
-    "usage_count": 64,
+    "usage_count": 69,
     "featured_level": 0,
     "listing_tags": [
       2
@@ -1519,6 +1595,7 @@
       {
         "title": "Cross Platform Mobile App Ad Campaign",
         "url": "https://www.anygen.io/task/Gv83pYJY4ayKHGg95g2l1Zhmg1e",
+        "exampleprompt": "Use the paid-ads skill to create a cross-platform advertising campaign plan for a mobile app, covering Google Ads and Meta, with the goal of keeping CPA below $20 within 30 days.",
         "img_token": ""
       }
     ],
@@ -1530,7 +1607,7 @@
     "description": "在保持图片质量的同时，减小图片文件大小或将图片转换为 WebP 或 PNG 格式。",
     "category": "",
     "icon_url": "",
-    "usage_count": 64,
+    "usage_count": 67,
     "featured_level": 0,
     "listing_tags": [
       1
@@ -1543,58 +1620,11 @@
       {
         "title": "Compress Images to Smaller WebP Format",
         "url": "https://www.anygen.io/task/X0mTpShI6aNWbDgzkQWlbU3VgWb",
+        "exampleprompt": "Use the baoyu-compress-image skill to convert my provided image material folder into smaller WebP compressed images.",
         "img_token": ""
       }
     ],
     "category_infer": "转换工具"
-  },
-  {
-    "id": "7606009212753186524",
-    "name": "email-drafter",
-    "description": "为各种沟通需求（包括回复和正式信函）撰写和起草专业的商务电子邮件与消息。",
-    "category": "",
-    "icon_url": "",
-    "usage_count": 63,
-    "featured_level": 0,
-    "listing_tags": [
-      4
-    ],
-    "is_added": false,
-    "source": "shubhamsaboo",
-    "prompt": "使用 email-drafter 技能，为一封商务合作提案邮件进行专业润色和结构优化。",
-    "file_token": "EjNgbZEaJoeowzxAcR6lRIb2gzg",
-    "examples": [
-      {
-        "title": "Polished International Business Proposal Email",
-        "url": "https://www.anygen.io/task/FlIzpTscYa4fXtglQThlAhYsgJd",
-        "img_token": ""
-      }
-    ],
-    "category_infer": "内容创作"
-  },
-  {
-    "id": "7606009212807728866",
-    "name": "meeting-insights-analyzer",
-    "description": "分析会议记录和录音，识别沟通模式，例如避免冲突、填充词使用、发言主导权和倾听机会，为提升沟通和领导技能提供见解。",
-    "category": "",
-    "icon_url": "",
-    "usage_count": 62,
-    "featured_level": 0,
-    "listing_tags": [
-      4
-    ],
-    "is_added": false,
-    "source": "composiohq",
-    "prompt": "使用 meeting-insights-analyzer 技能，分析过去一个月的会议录音，识别个人沟通模式中的改进空间。",
-    "file_token": "HtaPbAO2OoZNPhx1p1tlMb0tgjf",
-    "examples": [
-      {
-        "title": "Meeting Communication Pattern Insights Report",
-        "url": "https://www.anygen.io/task/UBFUpRthoaEeIEgb8NplbhTngub",
-        "img_token": ""
-      }
-    ],
-    "category_infer": "内容创作"
   },
   {
     "id": "7606232843072622305",
@@ -1602,7 +1632,7 @@
     "description": "通过规划内容策略、管理社交媒体和电子邮件推广以及分析绩效指标来开发和优化营销活动。",
     "category": "",
     "icon_url": "",
-    "usage_count": 61,
+    "usage_count": 66,
     "featured_level": 0,
     "listing_tags": [
       2
@@ -1615,131 +1645,57 @@
       {
         "title": "Digital Marketing Plan for Conversion Optimization",
         "url": "https://www.anygen.io/task/WWhWplTYeaxcnQg9su7l7byfguf",
+        "exampleprompt": "Use the executing-marketing-campaigns skill to create a detailed digital marketing plan, including email promotion, social channel management, and content strategy, with a focus on improving conversion rates and monitoring KPI performance.",
         "img_token": ""
       }
     ],
     "category_infer": "市场营销"
   },
   {
-    "id": "7606019356991950555",
-    "name": "section-logic-polisher",
-    "description": "分析并提升单个章节文件的逻辑连贯性，方法是确保论点明确，在合并前识别脱节的段落，同时不修改引用或添加新信息。",
+    "id": "7606009212753186524",
+    "name": "email-drafter",
+    "description": "为各种沟通需求（包括回复和正式信函）撰写和起草专业的商务电子邮件与消息。",
     "category": "",
     "icon_url": "",
-    "usage_count": 61,
+    "usage_count": 66,
     "featured_level": 0,
     "listing_tags": [
       4
     ],
     "is_added": false,
-    "source": "willoscar",
-    "prompt": "使用 section-logic-polisher 技能，对论文各小节进行论点明确化和段落间逻辑桥接优化。",
-    "file_token": "VJrubyPQNo8qxIx2uoxltHS7gjb",
+    "source": "shubhamsaboo",
+    "prompt": "使用 email-drafter 技能，为一封商务合作提案邮件进行专业润色和结构优化。",
+    "file_token": "EjNgbZEaJoeowzxAcR6lRIb2gzg",
     "examples": [
       {
-        "title": "Optimized Analysis of Vision Transformer Report",
-        "url": "https://www.anygen.io/task/AHjupd5uIaY4WPgm2t7lac7rgyg",
+        "title": "Polished International Business Proposal Email",
+        "url": "https://www.anygen.io/task/FlIzpTscYa4fXtglQThlAhYsgJd",
+        "exampleprompt": "Use the email-drafter skill to polish and restructure a business partnership proposal email, making it more polite and professional, suitable for international business contexts.",
         "img_token": ""
       }
     ],
     "category_infer": "内容创作"
   },
   {
-    "id": "7606009212937719515",
-    "name": "vue-best-practices",
-    "description": "使用 Vue 3 开发和管理 Vue.js 应用，重点关注 Composition API、TypeScript 以及相关工具（如 Vue Router、Pinia、SSR 和 Vite），以实现高效的组件和状态管理。",
+    "id": "7606009212807728866",
+    "name": "meeting-insights-analyzer",
+    "description": "分析会议记录和录音，识别沟通模式，例如避免冲突、填充词使用、发言主导权和倾听机会，为提升沟通和领导技能提供见解。",
     "category": "",
     "icon_url": "",
-    "usage_count": 61,
-    "featured_level": 0,
-    "listing_tags": [
-      6
-    ],
-    "is_added": false,
-    "source": "hyf0",
-    "prompt": "使用 vue-best-practices 技能，按照Composition API + TypeScript规范重构一个Vue组件。",
-    "file_token": "MpU6bjkpnojgnIxplDSlDWwIgbh",
-    "examples": [
-      {
-        "title": "Vue Composition API Shopping Cart with SSR",
-        "url": "https://www.anygen.io/task/EUNUptZ5lasOn8gx5t8lVzd4gde",
-        "img_token": ""
-      }
-    ],
-    "category_infer": "开发者"
-  },
-  {
-    "id": "7606232843726950108",
-    "name": "theme-factory",
-    "description": "应用预定义或自定义主题（包含颜色和字体）到幻灯片、文档、报告和 HTML 页面等各类工件，以实现一致的样式。",
-    "category": "",
-    "icon_url": "",
-    "usage_count": 60,
+    "usage_count": 65,
     "featured_level": 0,
     "listing_tags": [
       4
     ],
     "is_added": false,
-    "source": "anthropics",
-    "prompt": "使用 theme-factory 技能，为一份演示文稿应用\"北欧极简\"主题配色和字体方案。",
-    "file_token": "Q9zzb6NksoO8pjxhNTKlrXfdgKh",
+    "source": "composiohq",
+    "prompt": "使用 meeting-insights-analyzer 技能，分析过去一个月的会议录音，识别个人沟通模式中的改进空间。",
+    "file_token": "HtaPbAO2OoZNPhx1p1tlMb0tgjf",
     "examples": [
       {
-        "title": "Magazine Style Theme for Portfolio",
-        "url": "https://www.anygen.io/task/NNnqpkk7HaIdG7gjnNQlUWorgHe",
-        "img_token": "C8QjbhWD4osxwNxA7hZl97M2g2m"
-      }
-    ],
-    "category_infer": "内容创作"
-  },
-  {
-    "id": "7604692709261053660",
-    "name": "kpi-dashboard-design",
-    "description": "通过选择相关指标、应用可视化最佳实践并支持实时数据监控，设计和构建 KPI 仪表板。",
-    "category": "",
-    "icon_url": "",
-    "usage_count": 60,
-    "featured_level": 0,
-    "listing_tags": [
-      5
-    ],
-    "is_added": true,
-    "source": "wshobson",
-    "prompt": "使用 kpi-dashboard-design 技能，为电商运营团队设计一个包含GMV、转化率和用户留存的实时监控看板。",
-    "file_token": "UksRbkvxjo4izIxoESmlfhskgQd",
-    "examples": [
-      {
-        "title": "Real Time Global Supply Chain Dashboard",
-        "url": "https://www.anygen.io/task/LpSypqwTjaHB9agIpptl6rCRgee",
-        "img_token": "Zz4qb4bpvoVP5ExdT6OlwEuagyh"
-      },
-      {
-        "title": "Digital Marketing KPI Dashboard Design",
-        "url": "https://www.anygen.io/task/TTjqpcw2jaNGHCgGL3IlvgwrgVb",
-        "img_token": "EwnxbuAvyo6YzixZ0gulRgifggc"
-      }
-    ],
-    "category_infer": "数据分析"
-  },
-  {
-    "id": "7606232843508813533",
-    "name": "draft-polisher",
-    "description": "优化草稿文档，去除模板化内容，增强连贯性，并确保引用被正确锚定，同时不改变主张或引用键。",
-    "category": "",
-    "icon_url": "",
-    "usage_count": 59,
-    "featured_level": 0,
-    "listing_tags": [
-      4
-    ],
-    "is_added": false,
-    "source": "willoscar",
-    "prompt": "使用 draft-polisher 技能，对一篇综述论文初稿进行去模板化、统一术语和逻辑衔接润色。",
-    "file_token": "Z0lnbEPkIoM3y6xCe5xldYRvgch",
-    "examples": [
-      {
-        "title": "Polished Draft for Coherent Writing",
-        "url": "https://www.anygen.io/task/TYBhpZjjeaeRMEgSUHkluqBCgUh",
+        "title": "Meeting Communication Pattern Insights Report",
+        "url": "https://www.anygen.io/task/UBFUpRthoaEeIEgb8NplbhTngub",
+        "exampleprompt": "Use the meeting-insights-analyzer skill to convert this meeting transcript folder into a communication pattern insights report with improvement suggestions.",
         "img_token": ""
       }
     ],
@@ -1751,7 +1707,7 @@
     "description": "使用 Google Analytics 4、转化与事件追踪、UTM 参数和标签管理器等工具，设置、优化或审核分析追踪与衡量。",
     "category": "",
     "icon_url": "",
-    "usage_count": 59,
+    "usage_count": 65,
     "featured_level": 0,
     "listing_tags": [
       2
@@ -1764,36 +1720,145 @@
       {
         "title": "GA4 Event Tracking and UTM Optimization Plan",
         "url": "https://www.anygen.io/task/GHCHpsEdcaZHzYgX6RRlWHrkg4d",
+        "exampleprompt": "Use the analytics-tracking skill to design a GA4 event tracking plan for an e-commerce website and optimize UTM parameters to improve marketing channel analysis accuracy.",
         "img_token": ""
       },
       {
         "title": "GA4 Event Tracking and UTM Standardization Framework",
         "url": "https://www.anygen.io/task/PcCqprBwgaOWICgR9uXlyviFg7f",
+        "exampleprompt": "Use the analytics-tracking skill to set up a GA4 event tracking framework for a content publishing platform, combined with UTM parameter standardization, to enable cross-channel traffic attribution analysis.",
         "img_token": ""
       }
     ],
     "category_infer": "市场营销"
   },
   {
-    "id": "7606019357075853025",
-    "name": "web-artifacts-builder",
-    "description": "使用 React、Tailwind CSS 和 shadcn/ui 组件等现代前端技术，开发具有状态管理和路由功能的复杂多组件 HTML 制品。",
+    "id": "7606019356991950555",
+    "name": "section-logic-polisher",
+    "description": "分析并提升单个章节文件的逻辑连贯性，方法是确保论点明确，在合并前识别脱节的段落，同时不修改引用或添加新信息。",
     "category": "",
     "icon_url": "",
-    "usage_count": 57,
+    "usage_count": 64,
+    "featured_level": 0,
+    "listing_tags": [
+      4
+    ],
+    "is_added": false,
+    "source": "willoscar",
+    "prompt": "使用 section-logic-polisher 技能，对论文各小节进行论点明确化和段落间逻辑桥接优化。",
+    "file_token": "VJrubyPQNo8qxIx2uoxltHS7gjb",
+    "examples": [
+      {
+        "title": "Optimized Analysis of Vision Transformer Report",
+        "url": "https://www.anygen.io/task/AHjupd5uIaY4WPgm2t7lac7rgyg",
+        "exampleprompt": "Use the section-logic-polisher skill to analyze each section of the report, clarify the core argument of each paragraph, identify logical gaps to improve overall coherence, and produce an optimized version of the report.",
+        "img_token": ""
+      }
+    ],
+    "category_infer": "内容创作"
+  },
+  {
+    "id": "7604692709261053660",
+    "name": "kpi-dashboard-design",
+    "description": "通过选择相关指标、应用可视化最佳实践并支持实时数据监控，设计和构建 KPI 仪表板。",
+    "category": "",
+    "icon_url": "",
+    "usage_count": 64,
+    "featured_level": 0,
+    "listing_tags": [
+      5
+    ],
+    "is_added": true,
+    "source": "wshobson",
+    "prompt": "使用 kpi-dashboard-design 技能，为电商运营团队设计一个包含GMV、转化率和用户留存的实时监控看板。",
+    "file_token": "UksRbkvxjo4izIxoESmlfhskgQd",
+    "examples": [
+      {
+        "title": "Real Time Global Supply Chain Dashboard",
+        "url": "https://www.anygen.io/task/LpSypqwTjaHB9agIpptl6rCRgee",
+        "exampleprompt": "Use the kpi-dashboard-design skill to build a real-time dashboard for a global supply chain management department, displaying inventory turnover rate, order fulfillment time, and shipping cost metrics.",
+        "img_token": "Zz4qb4bpvoVP5ExdT6OlwEuagyh"
+      },
+      {
+        "title": "Digital Marketing KPI Dashboard Design",
+        "url": "https://www.anygen.io/task/TTjqpcw2jaNGHCgGL3IlvgwrgVb",
+        "exampleprompt": "Use the kpi-dashboard-design skill to create a dynamic dashboard for a digital marketing team, monitoring key performance indicators such as ad click-through rate, cost per conversion, and return on ad spend (ROAS).",
+        "img_token": "EwnxbuAvyo6YzixZ0gulRgifggc"
+      }
+    ],
+    "category_infer": "数据分析"
+  },
+  {
+    "id": "7606232843726950108",
+    "name": "theme-factory",
+    "description": "应用预定义或自定义主题（包含颜色和字体）到幻灯片、文档、报告和 HTML 页面等各类工件，以实现一致的样式。",
+    "category": "",
+    "icon_url": "",
+    "usage_count": 63,
+    "featured_level": 0,
+    "listing_tags": [
+      4
+    ],
+    "is_added": false,
+    "source": "anthropics",
+    "prompt": "使用 theme-factory 技能，为一份演示文稿应用\"北欧极简\"主题配色和字体方案。",
+    "file_token": "Q9zzb6NksoO8pjxhNTKlrXfdgKh",
+    "examples": [
+      {
+        "title": "Magazine Style Theme for Portfolio",
+        "url": "https://www.anygen.io/task/NNnqpkk7HaIdG7gjnNQlUWorgHe",
+        "exampleprompt": "Use the theme-factory skill to apply a \"magazine-style\" theme to a multi-page HTML portfolio template, ensuring consistent fonts and color schemes.",
+        "img_token": "C8QjbhWD4osxwNxA7hZl97M2g2m"
+      }
+    ],
+    "category_infer": "内容创作"
+  },
+  {
+    "id": "7606232843508813533",
+    "name": "draft-polisher",
+    "description": "优化草稿文档，去除模板化内容，增强连贯性，并确保引用被正确锚定，同时不改变主张或引用键。",
+    "category": "",
+    "icon_url": "",
+    "usage_count": 62,
+    "featured_level": 0,
+    "listing_tags": [
+      4
+    ],
+    "is_added": false,
+    "source": "willoscar",
+    "prompt": "使用 draft-polisher 技能，对一篇综述论文初稿进行去模板化、统一术语和逻辑衔接润色。",
+    "file_token": "Z0lnbEPkIoM3y6xCe5xldYRvgch",
+    "examples": [
+      {
+        "title": "Polished Draft for Coherent Writing",
+        "url": "https://www.anygen.io/task/TYBhpZjjeaeRMEgSUHkluqBCgUh",
+        "exampleprompt": "Use the draft-polisher skill to polish my draft document into a more coherent, cliche-free version.",
+        "img_token": ""
+      }
+    ],
+    "category_infer": "内容创作"
+  },
+  {
+    "id": "7606009212937719515",
+    "name": "vue-best-practices",
+    "description": "使用 Vue 3 开发和管理 Vue.js 应用，重点关注 Composition API、TypeScript 以及相关工具（如 Vue Router、Pinia、SSR 和 Vite），以实现高效的组件和状态管理。",
+    "category": "",
+    "icon_url": "",
+    "usage_count": 62,
     "featured_level": 0,
     "listing_tags": [
       6
     ],
     "is_added": false,
-    "source": "anthropics",
-    "prompt": "使用 web-artifacts-builder 技能，用React+Tailwind+shadcn/ui搭建一个多组件的交互式数据看板页面。",
-    "file_token": "DrnJbfiFRo2sNkxAElil64s6gtf",
+    "source": "hyf0",
+    "prompt": "使用 vue-best-practices 技能，按照Composition API + TypeScript规范重构一个Vue组件。",
+    "file_token": "MpU6bjkpnojgnIxplDSlDWwIgbh",
     "examples": [
       {
-        "title": "React Task Tracking Dashboard with Multi-View",
-        "url": "https://www.anygen.io/task/Z4b4pjXqPaI9OegubvBl3jhegvd",
-        "img_token": "CYUGbuDeHoj9qSxO13LlFRmAgne"
+        "title": "Vue Composition API Shopping Cart with SSR",
+        "url": "https://www.anygen.io/task/EUNUptZ5lasOn8gx5t8lVzd4gde",
+        "exampleprompt": "Use the vue-best-practices skill to build a shopping cart component with state management using the Composition API and TypeScript, supporting SSR rendering optimization.",
+        "img_token": ""
       }
     ],
     "category_infer": "开发者"
@@ -1804,7 +1869,7 @@
     "description": "分析网站的 SEO、性能、安全性和技术问题，涵盖 230 多个规则，提供包含健康分数、失效链接、元标签分析和可操作建议的详细报告。",
     "category": "",
     "icon_url": "",
-    "usage_count": 57,
+    "usage_count": 61,
     "featured_level": 0,
     "listing_tags": [
       6
@@ -1817,12 +1882,39 @@
       {
         "title": "Ecommerce Website Health Audit Report",
         "url": "https://www.anygen.io/task/Bs62pl9ZOagQCNgVmSel3uMpgWe",
+        "exampleprompt": "Use the audit-website skill to perform a comprehensive health diagnosis on an e-commerce platform homepage, covering 230 criteria including SEO optimization, loading speed, and security vulnerabilities, and generate a detailed improvement recommendation report.",
         "img_token": ""
       },
       {
         "title": "Educational Website Technical Audit Report",
         "url": "https://www.anygen.io/task/X42kpbHNGa731fgGrEKlsHuFgQg",
+        "exampleprompt": "Use the audit-website skill to perform an in-depth technical audit of an educational institution's website, evaluating its SEO quality, performance metrics, and security risks, forming a structured health score and improvement plan based on 230+ rules.",
         "img_token": ""
+      }
+    ],
+    "category_infer": "开发者"
+  },
+  {
+    "id": "7606019357075853025",
+    "name": "web-artifacts-builder",
+    "description": "使用 React、Tailwind CSS 和 shadcn/ui 组件等现代前端技术，开发具有状态管理和路由功能的复杂多组件 HTML 制品。",
+    "category": "",
+    "icon_url": "",
+    "usage_count": 59,
+    "featured_level": 0,
+    "listing_tags": [
+      6
+    ],
+    "is_added": false,
+    "source": "anthropics",
+    "prompt": "使用 web-artifacts-builder 技能，用React+Tailwind+shadcn/ui搭建一个多组件的交互式数据看板页面。",
+    "file_token": "DrnJbfiFRo2sNkxAElil64s6gtf",
+    "examples": [
+      {
+        "title": "React Task Tracking Dashboard with Multi-View",
+        "url": "https://www.anygen.io/task/Z4b4pjXqPaI9OegubvBl3jhegvd",
+        "exampleprompt": "Use the web-artifacts-builder skill to build a project task tracking dashboard with multi-view switching and asynchronous data fetching, implemented using React and Tailwind CSS combined with shadcn/ui components.",
+        "img_token": "CYUGbuDeHoj9qSxO13LlFRmAgne"
       }
     ],
     "category_infer": "开发者"
@@ -1833,7 +1925,7 @@
     "description": "通过协调多智能体 AI 系统，自动执行科研工作流，包括生成想法、设计方法论、分析数据、进行文献检索以及生成可直接发表的 LaTeX 论文。",
     "category": "",
     "icon_url": "",
-    "usage_count": 56,
+    "usage_count": 59,
     "featured_level": 0,
     "listing_tags": [
       3
@@ -1846,6 +1938,7 @@
       {
         "title": "Research Report Generation Using Denario",
         "url": "https://www.anygen.io/task/WS6upZTawaZToygRLz2lN1nFgvd",
+        "exampleprompt": "Use the denario skill. Retrieve an open observational dataset, formulate research questions, run simulations/what-if experiments as needed, and ultimately output a complete LaTeX research report.",
         "img_token": ""
       }
     ],
@@ -1857,7 +1950,7 @@
     "description": "规划和制定产品发布、功能公告及发布活动的策略，包括分阶段推出、渠道选择以及保持发布势头。",
     "category": "",
     "icon_url": "",
-    "usage_count": 54,
+    "usage_count": 58,
     "featured_level": 0,
     "listing_tags": [
       2
@@ -1870,40 +1963,13 @@
       {
         "title": "Multi-Phase Mobile App Launch Strategy Plan",
         "url": "https://www.anygen.io/task/PhsIpbZy2akVS2gPiY9lvMa2gXf",
+        "exampleprompt": "Use the launch-strategy skill to plan a multi-phase release strategy for a mobile application from closed testing to global launch, including channel allocation for social media and app stores.",
         "img_token": ""
       },
       {
         "title": "Three-Phase Online Education Feature Launch Plan",
         "url": "https://www.anygen.io/task/ZDIfpWYb9aJc4ugbXqclhSgHgLh",
-        "img_token": ""
-      }
-    ],
-    "category_infer": "市场营销"
-  },
-  {
-    "id": "7606009212457062112",
-    "name": "react-email",
-    "description": "使用 React 组件构建 HTML 邮件模板，适用于各种类型的邮件，如欢迎消息、密码重置、通知、订单确认、新闻通讯和交易邮件。",
-    "category": "",
-    "icon_url": "",
-    "usage_count": 53,
-    "featured_level": 0,
-    "listing_tags": [
-      2
-    ],
-    "is_added": false,
-    "source": "resend",
-    "prompt": "使用 react-email 技能，用React组件构建一封适配所有邮件客户端的欢迎邮件模板。",
-    "file_token": "Cry4ba9EJo5W9kxZoV1ldbCoglb",
-    "examples": [
-      {
-        "title": "Multilingual React Email Order Confirmation Template",
-        "url": "https://www.anygen.io/task/W4qIpbpU2a2ppugK56Il3DdbgFc",
-        "img_token": ""
-      },
-      {
-        "title": "React Email Newsletter Template with Dynamic Blocks",
-        "url": "https://www.anygen.io/task/Q3hppIBIiaPGhZgpWHHlH5CfgSd",
+        "exampleprompt": "Use the launch-strategy skill to design a new feature promotion plan for an online education platform, divided into three phases: Beta testing, limited-time discount campaign, and official launch, with clear objectives and channel selection for each phase.",
         "img_token": ""
       }
     ],
@@ -1915,7 +1981,7 @@
     "description": "全面介绍如何使用 Expo Router 构建应用，涵盖基础知识、样式设计、组件、导航、动画、设计模式以及原生标签集成。",
     "category": "",
     "icon_url": "",
-    "usage_count": 52,
+    "usage_count": 55,
     "featured_level": 0,
     "listing_tags": [
       6
@@ -1928,10 +1994,42 @@
       {
         "title": "Cross Platform Mobile App with Native UI",
         "url": "https://www.anygen.io/task/FV62p8tPiamj23gb7jflfnrzghh",
+        "exampleprompt": "Use the building-native-ui skill to develop a cross-platform mobile application with multi-level navigation and dynamic animation effects, integrating native UI components to enhance user experience.",
         "img_token": "Pl30bYvijo8VHlxhBHdlVNxWgnu"
       }
     ],
     "category_infer": "开发者"
+  },
+  {
+    "id": "7606009212457062112",
+    "name": "react-email",
+    "description": "使用 React 组件构建 HTML 邮件模板，适用于各种类型的邮件，如欢迎消息、密码重置、通知、订单确认、新闻通讯和交易邮件。",
+    "category": "",
+    "icon_url": "",
+    "usage_count": 55,
+    "featured_level": 0,
+    "listing_tags": [
+      2
+    ],
+    "is_added": false,
+    "source": "resend",
+    "prompt": "使用 react-email 技能，用React组件构建一封适配所有邮件客户端的欢迎邮件模板。",
+    "file_token": "Cry4ba9EJo5W9kxZoV1ldbCoglb",
+    "examples": [
+      {
+        "title": "Multilingual React Email Order Confirmation Template",
+        "url": "https://www.anygen.io/task/W4qIpbpU2a2ppugK56Il3DdbgFc",
+        "exampleprompt": "Use the react-email skill to create a multilingual order confirmation email template based on React components, and provide me with an HTML preview.",
+        "img_token": ""
+      },
+      {
+        "title": "React Email Newsletter Template with Dynamic Blocks",
+        "url": "https://www.anygen.io/task/Q3hppIBIiaPGhZgpWHHlH5CfgSd",
+        "exampleprompt": "Use the react-email skill to build a newsletter email template with dynamic content blocks, using React components for cross-platform compatibility.",
+        "img_token": ""
+      }
+    ],
+    "category_infer": "市场营销"
   },
   {
     "id": "7606232843018079966",
@@ -1939,7 +2037,7 @@
     "description": "分析和优化营销页面，如首页、落地页、定价页、功能页和博客文章，以提高转化率和用户参与度。",
     "category": "",
     "icon_url": "",
-    "usage_count": 51,
+    "usage_count": 54,
     "featured_level": 0,
     "listing_tags": [
       2
@@ -1952,69 +2050,13 @@
       {
         "title": "SaaS Pricing Page UX and CRO Strategy",
         "url": "https://www.anygen.io/task/J3QxpeTSva0YFPgxiJTlUnQIg7f",
+        "exampleprompt": "Use the page-cro skill. Select a SaaS product's pricing page (provide URL), review potential bounce/churn points, and output a detailed UX/CRO optimization strategy (pricing presentation, plan comparison, objection handling, FAQ structure, etc.).",
         "img_token": ""
       },
       {
         "title": "Tech Blog Article Engagement Optimization",
         "url": "https://www.anygen.io/task/RGnYpmHxhahVSUgSTBSlOWrTgef",
-        "img_token": ""
-      }
-    ],
-    "category_infer": "市场营销"
-  },
-  {
-    "id": "7606019356941618914",
-    "name": "app-store-optimization",
-    "description": "使用全面的 App Store Optimization (ASO) 工具包，研究、优化并跟踪苹果 App Store 和谷歌 Play Store 上的移动应用性能。",
-    "category": "",
-    "icon_url": "",
-    "usage_count": 51,
-    "featured_level": 0,
-    "listing_tags": [
-      2
-    ],
-    "is_added": false,
-    "source": "davila7",
-    "prompt": "使用 app-store-optimization 技能，优化一款健身App在App Store的标题、关键词和截图描述。",
-    "file_token": "FFs3bYkZUoPgkAxheGYlvjr4grf",
-    "examples": [
-      {
-        "title": "Educational App Store Optimization",
-        "url": "https://www.anygen.io/task/LgNMpq3pLaQPC0gLx2Kl9fOng7b",
-        "img_token": ""
-      },
-      {
-        "title": "App Store Optimization for Financial App",
-        "url": "https://www.anygen.io/task/Ohs3pTglsaxNrAglmCUlVPkzgEe",
-        "img_token": ""
-      }
-    ],
-    "category_infer": "市场营销"
-  },
-  {
-    "id": "7606009212623146721",
-    "name": "customer-support",
-    "description": "为客户支持互动提供结构化指导，包括响应咨询、解决问题和升级处理。",
-    "category": "",
-    "icon_url": "",
-    "usage_count": 51,
-    "featured_level": 0,
-    "listing_tags": [
-      2
-    ],
-    "is_added": false,
-    "source": "mastra",
-    "prompt": "使用 customer-support 技能，按照HEAR方法框架撰写一封回复用户退款投诉的专业客服邮件。",
-    "file_token": "PYBcbzThBo0fEoxmH4klz2UEgbc",
-    "examples": [
-      {
-        "title": "Professional Response to Account Security Concerns",
-        "url": "https://www.anygen.io/task/US32pqUTXaBYFWg4SRllX4RLgw3",
-        "img_token": ""
-      },
-      {
-        "title": "Customer Service Email Using CAB Strategy",
-        "url": "https://www.anygen.io/task/CUOfpkCKoaHRx1gT8HplVwfagSc",
+        "exampleprompt": "Use the page-cro skill. Select an article page from a high-traffic tech blog, analyze bottlenecks affecting engagement/sharing rates, and design targeted content and experience optimization strategies (titles, readability, internal links, media embedding, sharing widgets, comment sections, etc.).",
         "img_token": ""
       }
     ],
@@ -2026,7 +2068,7 @@
     "description": "分析并改进用户入职和激活流程，以提升新用户的首次使用体验、激活率和价值实现时间。",
     "category": "",
     "icon_url": "",
-    "usage_count": 50,
+    "usage_count": 53,
     "featured_level": 0,
     "listing_tags": [
       2
@@ -2039,11 +2081,75 @@
       {
         "title": "Ecommerce New Customer Purchase Analysis",
         "url": "https://www.anygen.io/task/ZTyBp4GOYaqk2VgJQdJlIkB2g9d",
+        "exampleprompt": "Use the onboarding-cro skill to analyze a typical e-commerce platform's new customer first-purchase journey and propose improvement plans to increase purchase conversion rates.",
         "img_token": ""
       },
       {
         "title": "Optimizing SaaS User Activation Process",
         "url": "https://www.anygen.io/task/FROPptLmRaamJMgknbml0wIHgxe",
+        "exampleprompt": "Use the onboarding-cro skill to map out the new user account activation steps of a typical SaaS platform and develop optimization measures to shorten the time-to-value for users.",
+        "img_token": ""
+      }
+    ],
+    "category_infer": "市场营销"
+  },
+  {
+    "id": "7606019356941618914",
+    "name": "app-store-optimization",
+    "description": "使用全面的 App Store Optimization (ASO) 工具包，研究、优化并跟踪苹果 App Store 和谷歌 Play Store 上的移动应用性能。",
+    "category": "",
+    "icon_url": "",
+    "usage_count": 53,
+    "featured_level": 0,
+    "listing_tags": [
+      2
+    ],
+    "is_added": false,
+    "source": "davila7",
+    "prompt": "使用 app-store-optimization 技能，优化一款健身App在App Store的标题、关键词和截图描述。",
+    "file_token": "FFs3bYkZUoPgkAxheGYlvjr4grf",
+    "examples": [
+      {
+        "title": "Educational App Store Optimization",
+        "url": "https://www.anygen.io/task/LgNMpq3pLaQPC0gLx2Kl9fOng7b",
+        "exampleprompt": "Use the app-store-optimization skill to optimize the app name, description text, and icon design of an educational app on the Google Play Store.",
+        "img_token": ""
+      },
+      {
+        "title": "App Store Optimization for Financial App",
+        "url": "https://www.anygen.io/task/Ohs3pTglsaxNrAglmCUlVPkzgEe",
+        "exampleprompt": "Use the app-store-optimization skill to improve the metadata and in-app purchase display strategy of a financial management mobile application on the Google Play Store.",
+        "img_token": ""
+      }
+    ],
+    "category_infer": "市场营销"
+  },
+  {
+    "id": "7606009212623146721",
+    "name": "customer-support",
+    "description": "为客户支持互动提供结构化指导，包括响应咨询、解决问题和升级处理。",
+    "category": "",
+    "icon_url": "",
+    "usage_count": 53,
+    "featured_level": 0,
+    "listing_tags": [
+      2
+    ],
+    "is_added": false,
+    "source": "mastra",
+    "prompt": "使用 customer-support 技能，按照HEAR方法框架撰写一封回复用户退款投诉的专业客服邮件。",
+    "file_token": "PYBcbzThBo0fEoxmH4klz2UEgbc",
+    "examples": [
+      {
+        "title": "Professional Response to Account Security Concerns",
+        "url": "https://www.anygen.io/task/US32pqUTXaBYFWg4SRllX4RLgw3",
+        "exampleprompt": "Use the customer-support skill to write a professional customer service email responding to user account security concerns based on the STAR method framework.",
+        "img_token": ""
+      },
+      {
+        "title": "Customer Service Email Using CAB Strategy",
+        "url": "https://www.anygen.io/task/CUOfpkCKoaHRx1gT8HplVwfagSc",
+        "exampleprompt": "Use the customer-support skill to write a structured customer service email responding to a user's product feature inquiry using the CAB communication strategy.",
         "img_token": ""
       }
     ],
@@ -2055,7 +2161,7 @@
     "description": "为在仪表板、报告或演示文稿中有效传达数据，提供选择和设计图表及可视化的建议。",
     "category": "",
     "icon_url": "",
-    "usage_count": 50,
+    "usage_count": 52,
     "featured_level": 0,
     "listing_tags": [
       5
@@ -2068,6 +2174,7 @@
       {
         "title": "Sales Data Visualization Dashboard",
         "url": "https://www.anygen.io/task/AWsipnteiaKXwng9OvzlS0kPgrf",
+        "exampleprompt": "Use visualization-expert skill to select the most appropriate chart type for given sales data and deliver a clear, easy-to-understand visual dashboard page.",
         "img_token": "JbbFbQ80loTRePxzM0GlM6oRgWf"
       }
     ],
@@ -2079,7 +2186,7 @@
     "description": "创建并优化专为 Slack 定制的动画 GIF，包括验证工具和动画指南，以满足平台限制。",
     "category": "",
     "icon_url": "",
-    "usage_count": 49,
+    "usage_count": 51,
     "featured_level": 0,
     "listing_tags": [
       1
@@ -2092,6 +2199,7 @@
       {
         "title": "Christmas Celebration Emoji GIFs",
         "url": "https://www.anygen.io/task/JLYspi481aVVHYg6HeHlzmCLgxd",
+        "exampleprompt": "Use the slack-gif-creator skill to generate a set of Christmas celebration emoji GIFs for me.",
         "img_token": ""
       }
     ],
@@ -2103,7 +2211,7 @@
     "description": "按照 Metabase 编码标准和最佳实践编写及重构 TypeScript 和 JavaScript 代码。",
     "category": "",
     "icon_url": "",
-    "usage_count": 49,
+    "usage_count": 51,
     "featured_level": 0,
     "listing_tags": [
       6
@@ -2116,6 +2224,7 @@
       {
         "title": "Responsive TypeScript Interface Design",
         "url": "https://www.anygen.io/task/MaerpznR0atojSgExj2lvYbdg1b",
+        "exampleprompt": "Use the typescript-write skill to design a responsive JavaScript user interaction interface based on Metabase coding standards, with detailed type annotations.",
         "img_token": ""
       }
     ],
@@ -2127,7 +2236,7 @@
     "description": "使用 Ship-Learn-Next 框架将成绩单、文章和教程等教育内容转换为包含可操作步骤的结构化实施计划。",
     "category": "",
     "icon_url": "",
-    "usage_count": 48,
+    "usage_count": 50,
     "featured_level": 0,
     "listing_tags": [
       3
@@ -2140,6 +2249,7 @@
       {
         "title": "Phased Project Plan for Software Development",
         "url": "https://www.anygen.io/task/ZWi6pYW4Xa29DLgizO9lHFCGgSe",
+        "exampleprompt": "Use the ship-learn-next skill to generate a phased project implementation plan based on a software development tutorial, including specific steps and timelines.",
         "img_token": ""
       }
     ],
@@ -2151,7 +2261,7 @@
     "description": "运用启发式教学方法提供政治学、历史和地理学的引导式辅导，专注于提升人文学科的理解、记忆与分析能力。",
     "category": "",
     "icon_url": "",
-    "usage_count": 48,
+    "usage_count": 50,
     "featured_level": 0,
     "listing_tags": [
       3
@@ -2164,6 +2274,7 @@
       {
         "title": "World War II Causes and Impacts Analysis",
         "url": "https://www.anygen.io/task/J4xWpcUETa7qlogLlHfl2Qz6gce",
+        "exampleprompt": "Use the gaokao-liberal-arts-tutor skill to analyze the main causes and impacts of \"World War II\" using heuristic teaching strategies.",
         "img_token": ""
       }
     ],

@@ -100,9 +100,94 @@ def infer_category_from_tags(tags: list[Any] | None) -> str:
     return ""
 
 
+def extract_text_from_content(content: Any) -> str:
+    if isinstance(content, str):
+        return content.strip()
+    if isinstance(content, list):
+        for item in content:
+            text = extract_text_from_content(item)
+            if text:
+                return text
+        return ""
+    if isinstance(content, dict):
+        # 常见消息节点：{"kind":"text","text":"..."} / {"text":"..."}
+        direct = content.get("text")
+        if isinstance(direct, str) and direct.strip():
+            return direct.strip()
+        for key in ("prompt", "value", "content"):
+            val = content.get(key)
+            text = extract_text_from_content(val)
+            if text:
+                return text
+    return ""
+
+
+def fetch_task_example_prompt(
+    session: requests.Session,
+    task_token: str,
+    cache: dict[str, str],
+) -> str:
+    if not task_token:
+        return ""
+    if task_token in cache:
+        return cache[task_token]
+    try:
+        data = api_get(
+            session,
+            f"/api/page/pages/{task_token}/messages",
+            params={"limit": 239},
+        )
+        messages = (data or {}).get("messages") or []
+        # 优先用户消息，取最早可读的一条文本
+        user_msgs = [m for m in messages if str(m.get("role", "")).lower() == "user"]
+        for msg in reversed(user_msgs):
+            text = extract_text_from_content(msg.get("content"))
+            if text:
+                cache[task_token] = text
+                return text
+        # 回退：任意消息文本
+        for msg in reversed(messages):
+            text = extract_text_from_content(msg.get("content"))
+            if text:
+                cache[task_token] = text
+                return text
+    except Exception:
+        pass
+    cache[task_token] = ""
+    return ""
+
+
+def enrich_examples_with_prompt(
+    session: requests.Session,
+    examples: list[dict[str, Any]],
+    cache: dict[str, str],
+) -> list[dict[str, Any]]:
+    enriched: list[dict[str, Any]] = []
+    for ex in examples:
+        title = (ex.get("title") or "").strip()
+        url = (ex.get("url") or "").strip()
+        img_token = (ex.get("img_token") or "").strip()
+        task_token = parse_task_token(url)
+        example_prompt = fetch_task_example_prompt(session, task_token, cache) if task_token else ""
+
+        item: dict[str, Any] = {
+            "title": title,
+            "url": url,
+            "exampleprompt": example_prompt,
+            "img_token": img_token,
+        }
+        # 保留可能的额外字段
+        for k, v in ex.items():
+            if k not in item:
+                item[k] = v
+        enriched.append(item)
+    return enriched
+
+
 def fetch_marketplace(session: requests.Session) -> list[dict[str, Any]]:
     all_skills: dict[str, dict[str, Any]] = {}
     tags = ["", "0", "1", "2", "3", "4", "5", "6", "7"]
+    prompt_cache: dict[str, str] = {}
 
     for tag in tags:
         cursor = ""
@@ -143,6 +228,11 @@ def fetch_marketplace(session: requests.Session) -> list[dict[str, Any]]:
         merged["id"] = summary.get("id", detail.get("id", skill_id))
         merged["source"] = normalize_source(merged.get("source"))
         merged["category_infer"] = infer_category_from_tags(merged.get("listing_tags"))
+        merged["examples"] = enrich_examples_with_prompt(
+            session,
+            merged.get("examples") or [],
+            prompt_cache,
+        )
         detailed.append(merged)
 
     return detailed
